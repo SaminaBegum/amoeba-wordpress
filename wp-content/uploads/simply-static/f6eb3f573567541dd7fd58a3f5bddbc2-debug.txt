@@ -1,0 +1,1090 @@
+[2024-10-17 14:15:23] [class-ss-archive-creation-job.php:83] Starting a job; no job is presently running
+[2024-10-17 14:15:23] [class-ss-archive-creation-job.php:84] Here's our task list: setup, fetch_urls, generate_404, transfer_files_locally, wrapup
+[2024-10-17 14:15:23] [class-ss-archive-creation-job.php:102] Pushing first task to queue: setup
+[2024-10-17 14:15:24] [class-ss-archive-creation-job.php:136] Current task: setup
+[2024-10-17 14:15:24] [class-ss-archive-creation-job.php:153] Performing task: setup
+[2024-10-17 14:15:24] [class-ss-task.php:44] Status message: [setup] Setting up
+[2024-10-17 14:15:24] [class-ss-setup-task.php:33] Creating archive directory: C:\xampp\htdocs\amoeba\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1729174523\
+[2024-10-17 14:15:24] [class-ss-setup-task.php:72] Adding origin URL to queue: http://localhost/amoeba/wordpress/
+[2024-10-17 14:15:24] [class-ss-archive-creation-job.php:175] We've found our next task: fetch_urls
+[2024-10-17 14:15:24] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-10-17 14:15:24] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-10-17 14:15:24] [class-ss-fetch-urls-task.php:69] Total pages: 1; Pages remaining: 1
+[2024-10-17 14:15:24] [class-ss-fetch-urls-task.php:72] URL: http://localhost/amoeba/wordpress/
+[2024-10-17 14:15:24] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 1
+[2024-10-17 14:15:24] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 14:15:24] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\smnbe\AppData\Local\Temp/67111bfc5b361-hC9192.tmp
+[2024-10-17 14:15:24] [class-ss-page-handler.php:38] URL Prepared:http://localhost/amoeba/wordpress/?simply_static_page=1
+[2024-10-17 14:15:24] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/amoeba/wordpress/?simply_static_page=1
+[2024-10-17 14:15:25] [class-ss-url-fetcher.php:103] Filesize: 182663 bytes
+[2024-10-17 14:15:25] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-10-17 14:15:25] [class-ss-url-fetcher.php:233] New filename for static page: /index.html
+[2024-10-17 14:15:25] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\smnbe\AppData\Local\Temp/67111bfc5b361-hC9192.tmp to C:\xampp\htdocs\amoeba\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1729174523/index.html
+[2024-10-17 14:15:25] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 14:15:25] [class-ss-fetch-urls-task.php:159] Adding 52 URLs to the queue
+[2024-10-17 14:15:25] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 14:15:25] [class-ss-page.php:119] Checking Content Identical:290c28ab5ef62b648cba3149b628549037ae10b8===. Value: FALSE
+[2024-10-17 14:15:25] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 0 of 1 pages/files
+[2024-10-17 14:15:25] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-10-17 14:15:25] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-10-17 14:15:25] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-10-17 14:15:25] [class-ss-fetch-urls-task.php:69] Total pages: 52; Pages remaining: 51
+[2024-10-17 14:15:25] [class-ss-fetch-urls-task.php:72] URL: http://localhost/amoeba/wordpress/our-mission/
+[2024-10-17 14:15:25] [class-ss-task.php:58] [PAGES STATUS] Remaining:50; Total: 52
+[2024-10-17 14:15:25] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 14:15:25] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\smnbe\AppData\Local\Temp/67111bfdd7377-RHiNr8.tmp
+[2024-10-17 14:15:25] [class-ss-page-handler.php:38] URL Prepared:http://localhost/amoeba/wordpress/our-mission/?simply_static_page=2
+[2024-10-17 14:15:25] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/amoeba/wordpress/our-mission/?simply_static_page=2
+[2024-10-17 14:15:26] [class-ss-url-fetcher.php:103] Filesize: 134357 bytes
+[2024-10-17 14:15:26] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-10-17 14:15:26] [class-ss-url-fetcher.php:233] New filename for static page: /our-mission/index.html
+[2024-10-17 14:15:26] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\smnbe\AppData\Local\Temp/67111bfdd7377-RHiNr8.tmp to C:\xampp\htdocs\amoeba\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1729174523/our-mission/index.html
+[2024-10-17 14:15:26] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 14:15:27] [class-ss-fetch-urls-task.php:159] Adding 43 URLs to the queue
+[2024-10-17 14:15:27] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 14:15:27] [class-ss-page.php:119] Checking Content Identical:ae26132fea3219703e32470c3dafcf50243c8716===. Value: FALSE
+[2024-10-17 14:15:27] [class-ss-fetch-urls-task.php:72] URL: http://localhost/amoeba/wordpress/wp-content/uploads/2024/10/LOGO-JPEG-FILE-1.jpg
+[2024-10-17 14:15:27] [class-ss-task.php:58] [PAGES STATUS] Remaining:49; Total: 52
+[2024-10-17 14:15:27] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 14:15:27] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\smnbe\AppData\Local\Temp/67111bff1157c-SUPC0g.tmp
+[2024-10-17 14:15:27] [class-ss-page-handler.php:38] URL Prepared:http://localhost/amoeba/wordpress/wp-content/uploads/2024/10/LOGO-JPEG-FILE-1.jpg?simply_static_page=3
+[2024-10-17 14:15:27] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/amoeba/wordpress/wp-content/uploads/2024/10/LOGO-JPEG-FILE-1.jpg?simply_static_page=3
+[2024-10-17 14:15:27] [class-ss-url-fetcher.php:103] Filesize: 37632 bytes
+[2024-10-17 14:15:27] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-10-17 14:15:27] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/10/LOGO-JPEG-FILE-1.jpg
+[2024-10-17 14:15:27] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\smnbe\AppData\Local\Temp/67111bff1157c-SUPC0g.tmp to C:\xampp\htdocs\amoeba\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1729174523/wp-content/uploads/2024/10/LOGO-JPEG-FILE-1.jpg
+[2024-10-17 14:15:27] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 14:15:27] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-17 14:15:27] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 14:15:27] [class-ss-page.php:119] Checking Content Identical:884c2b40d2262e9b24fdcf14433bfa215f7805fe===. Value: FALSE
+[2024-10-17 14:15:27] [class-ss-fetch-urls-task.php:72] URL: http://localhost/amoeba/wordpress/wp-content/uploads/2024/10/about.png
+[2024-10-17 14:15:27] [class-ss-task.php:58] [PAGES STATUS] Remaining:48; Total: 52
+[2024-10-17 14:15:27] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 14:15:27] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\smnbe\AppData\Local\Temp/67111bff1cc15-fuVPYJ.tmp
+[2024-10-17 14:15:27] [class-ss-page-handler.php:38] URL Prepared:http://localhost/amoeba/wordpress/wp-content/uploads/2024/10/about.png?simply_static_page=4
+[2024-10-17 14:15:27] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/amoeba/wordpress/wp-content/uploads/2024/10/about.png?simply_static_page=4
+[2024-10-17 14:15:27] [class-ss-url-fetcher.php:103] Filesize: 606322 bytes
+[2024-10-17 14:15:27] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-10-17 14:15:27] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/10/about.png
+[2024-10-17 14:15:27] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\smnbe\AppData\Local\Temp/67111bff1cc15-fuVPYJ.tmp to C:\xampp\htdocs\amoeba\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1729174523/wp-content/uploads/2024/10/about.png
+[2024-10-17 14:15:27] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 14:15:27] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-17 14:15:27] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 14:15:27] [class-ss-page.php:119] Checking Content Identical:b3e48c6f161890bb04b47e80941ebf3a0f36fdab===. Value: FALSE
+[2024-10-17 14:15:27] [class-ss-fetch-urls-task.php:72] URL: http://localhost/amoeba/wordpress/wp-content/uploads/2024/10/2.1.jpg
+[2024-10-17 14:15:27] [class-ss-task.php:58] [PAGES STATUS] Remaining:47; Total: 52
+[2024-10-17 14:15:27] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 14:15:27] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\smnbe\AppData\Local\Temp/67111bff2a959-ZBZtvW.tmp
+[2024-10-17 14:15:27] [class-ss-page-handler.php:38] URL Prepared:http://localhost/amoeba/wordpress/wp-content/uploads/2024/10/2.1.jpg?simply_static_page=5
+[2024-10-17 14:15:27] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/amoeba/wordpress/wp-content/uploads/2024/10/2.1.jpg?simply_static_page=5
+[2024-10-17 14:15:27] [class-ss-url-fetcher.php:103] Filesize: 12459 bytes
+[2024-10-17 14:15:27] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-10-17 14:15:27] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/10/2.1.jpg
+[2024-10-17 14:15:27] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\smnbe\AppData\Local\Temp/67111bff2a959-ZBZtvW.tmp to C:\xampp\htdocs\amoeba\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1729174523/wp-content/uploads/2024/10/2.1.jpg
+[2024-10-17 14:15:27] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 14:15:27] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-17 14:15:27] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 14:15:27] [class-ss-page.php:119] Checking Content Identical:455633f8aeab1ea0aca381f4c0f8adce8bba1a91===. Value: FALSE
+[2024-10-17 14:15:27] [class-ss-fetch-urls-task.php:72] URL: http://localhost/amoeba/wordpress/wp-includes/js/jquery/jquery.min.js
+[2024-10-17 14:15:27] [class-ss-task.php:58] [PAGES STATUS] Remaining:46; Total: 52
+[2024-10-17 14:15:27] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 14:15:27] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\smnbe\AppData\Local\Temp/67111bff37dce-ZbQnhJ.tmp
+[2024-10-17 14:15:27] [class-ss-page-handler.php:38] URL Prepared:http://localhost/amoeba/wordpress/wp-includes/js/jquery/jquery.min.js?simply_static_page=6
+[2024-10-17 14:15:27] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/amoeba/wordpress/wp-includes/js/jquery/jquery.min.js?simply_static_page=6
+[2024-10-17 14:15:27] [class-ss-url-fetcher.php:103] Filesize: 87553 bytes
+[2024-10-17 14:15:27] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/javascript
+[2024-10-17 14:15:27] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/jquery/jquery.min.js
+[2024-10-17 14:15:27] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\smnbe\AppData\Local\Temp/67111bff37dce-ZbQnhJ.tmp to C:\xampp\htdocs\amoeba\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1729174523/wp-includes/js/jquery/jquery.min.js
+[2024-10-17 14:15:27] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 14:15:27] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-17 14:15:27] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 14:15:27] [class-ss-page.php:119] Checking Content Identical:79cd3587d565afe290076a8d36c31c305a573d18===. Value: FALSE
+[2024-10-17 14:15:27] [class-ss-fetch-urls-task.php:72] URL: http://localhost/amoeba/wordpress/wp-includes/js/jquery/jquery-migrate.min.js
+[2024-10-17 14:15:27] [class-ss-task.php:58] [PAGES STATUS] Remaining:45; Total: 52
+[2024-10-17 14:15:27] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 14:15:27] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\smnbe\AppData\Local\Temp/67111bff3f6bc-RrO5Mu.tmp
+[2024-10-17 14:15:27] [class-ss-page-handler.php:38] URL Prepared:http://localhost/amoeba/wordpress/wp-includes/js/jquery/jquery-migrate.min.js?simply_static_page=7
+[2024-10-17 14:15:27] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/amoeba/wordpress/wp-includes/js/jquery/jquery-migrate.min.js?simply_static_page=7
+[2024-10-17 14:15:27] [class-ss-url-fetcher.php:103] Filesize: 13577 bytes
+[2024-10-17 14:15:27] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/javascript
+[2024-10-17 14:15:27] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/jquery/jquery-migrate.min.js
+[2024-10-17 14:15:27] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\smnbe\AppData\Local\Temp/67111bff3f6bc-RrO5Mu.tmp to C:\xampp\htdocs\amoeba\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1729174523/wp-includes/js/jquery/jquery-migrate.min.js
+[2024-10-17 14:15:27] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 14:15:27] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-17 14:15:27] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 14:15:27] [class-ss-page.php:119] Checking Content Identical:3ad0c10e501ac2a9bfa18f9cd7e700219b378738===. Value: FALSE
+[2024-10-17 14:15:27] [class-ss-fetch-urls-task.php:72] URL: http://localhost/amoeba/wordpress/wp-content/plugins/scroll-top/assets/js/jquery.scrollUp.min.js
+[2024-10-17 14:15:27] [class-ss-task.php:58] [PAGES STATUS] Remaining:44; Total: 52
+[2024-10-17 14:15:27] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 14:15:27] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\smnbe\AppData\Local\Temp/67111bff45e2a-8pNhjd.tmp
+[2024-10-17 14:15:27] [class-ss-page-handler.php:38] URL Prepared:http://localhost/amoeba/wordpress/wp-content/plugins/scroll-top/assets/js/jquery.scrollUp.min.js?simply_static_page=8
+[2024-10-17 14:15:27] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/amoeba/wordpress/wp-content/plugins/scroll-top/assets/js/jquery.scrollUp.min.js?simply_static_page=8
+[2024-10-17 14:15:27] [class-ss-url-fetcher.php:103] Filesize: 2035 bytes
+[2024-10-17 14:15:27] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/javascript
+[2024-10-17 14:15:27] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/scroll-top/assets/js/jquery.scrollUp.min.js
+[2024-10-17 14:15:27] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\smnbe\AppData\Local\Temp/67111bff45e2a-8pNhjd.tmp to C:\xampp\htdocs\amoeba\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1729174523/wp-content/plugins/scroll-top/assets/js/jquery.scrollUp.min.js
+[2024-10-17 14:15:27] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 14:15:27] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-17 14:15:27] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 14:15:27] [class-ss-page.php:119] Checking Content Identical:f349a84e4c1bf94aa3278bc578043b52a9ce33a2===. Value: FALSE
+[2024-10-17 14:15:27] [class-ss-fetch-urls-task.php:72] URL: http://localhost/amoeba/wordpress/wp-content/themes/Divi/js/scripts.min.js
+[2024-10-17 14:15:27] [class-ss-task.php:58] [PAGES STATUS] Remaining:43; Total: 52
+[2024-10-17 14:15:27] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 14:15:27] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\smnbe\AppData\Local\Temp/67111bff4efb2-BrGqSH.tmp
+[2024-10-17 14:15:27] [class-ss-page-handler.php:38] URL Prepared:http://localhost/amoeba/wordpress/wp-content/themes/Divi/js/scripts.min.js?simply_static_page=9
+[2024-10-17 14:15:27] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/amoeba/wordpress/wp-content/themes/Divi/js/scripts.min.js?simply_static_page=9
+[2024-10-17 14:15:27] [class-ss-url-fetcher.php:103] Filesize: 274331 bytes
+[2024-10-17 14:15:27] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/javascript
+[2024-10-17 14:15:27] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/Divi/js/scripts.min.js
+[2024-10-17 14:15:27] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\smnbe\AppData\Local\Temp/67111bff4efb2-BrGqSH.tmp to C:\xampp\htdocs\amoeba\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1729174523/wp-content/themes/Divi/js/scripts.min.js
+[2024-10-17 14:15:27] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 14:15:27] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-17 14:15:27] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 14:15:27] [class-ss-page.php:119] Checking Content Identical:c6f773ce0359ec130d7ac93a1da4b070ec8d4ebd===. Value: FALSE
+[2024-10-17 14:15:27] [class-ss-fetch-urls-task.php:72] URL: http://localhost/amoeba/wordpress/wp-content/themes/Divi/includes/builder/feature/dynamic-assets/assets/js/jquery.mobile.js
+[2024-10-17 14:15:27] [class-ss-task.php:58] [PAGES STATUS] Remaining:42; Total: 52
+[2024-10-17 14:15:27] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 14:15:27] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\smnbe\AppData\Local\Temp/67111bff5e93e-Q9KFA1.tmp
+[2024-10-17 14:15:27] [class-ss-page-handler.php:38] URL Prepared:http://localhost/amoeba/wordpress/wp-content/themes/Divi/includes/builder/feature/dynamic-assets/assets/js/jquery.mobile.js?simply_static_page=10
+[2024-10-17 14:15:27] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/amoeba/wordpress/wp-content/themes/Divi/includes/builder/feature/dynamic-assets/assets/js/jquery.mobile.js?simply_static_page=10
+[2024-10-17 14:15:27] [class-ss-url-fetcher.php:103] Filesize: 7960 bytes
+[2024-10-17 14:15:27] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/javascript
+[2024-10-17 14:15:27] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/Divi/includes/builder/feature/dynamic-assets/assets/js/jquery.mobile.js
+[2024-10-17 14:15:27] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\smnbe\AppData\Local\Temp/67111bff5e93e-Q9KFA1.tmp to C:\xampp\htdocs\amoeba\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1729174523/wp-content/themes/Divi/includes/builder/feature/dynamic-assets/assets/js/jquery.mobile.js
+[2024-10-17 14:15:27] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 14:15:27] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-17 14:15:27] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 14:15:27] [class-ss-page.php:119] Checking Content Identical:d60a246ba584ba892a87bcf446e71d26adbcb91a===. Value: FALSE
+[2024-10-17 14:15:27] [class-ss-fetch-urls-task.php:72] URL: http://localhost/amoeba/wordpress/wp-content/plugins/flip-cards-module-divi/scripts/frontend-bundle.min.js
+[2024-10-17 14:15:27] [class-ss-task.php:58] [PAGES STATUS] Remaining:41; Total: 52
+[2024-10-17 14:15:27] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 14:15:27] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\smnbe\AppData\Local\Temp/67111bff6b1dc-8Tct31.tmp
+[2024-10-17 14:15:27] [class-ss-page-handler.php:38] URL Prepared:http://localhost/amoeba/wordpress/wp-content/plugins/flip-cards-module-divi/scripts/frontend-bundle.min.js?simply_static_page=11
+[2024-10-17 14:15:27] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/amoeba/wordpress/wp-content/plugins/flip-cards-module-divi/scripts/frontend-bundle.min.js?simply_static_page=11
+[2024-10-17 14:15:27] [class-ss-url-fetcher.php:103] Filesize: 3456 bytes
+[2024-10-17 14:15:27] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/javascript
+[2024-10-17 14:15:27] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/flip-cards-module-divi/scripts/frontend-bundle.min.js
+[2024-10-17 14:15:27] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\smnbe\AppData\Local\Temp/67111bff6b1dc-8Tct31.tmp to C:\xampp\htdocs\amoeba\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1729174523/wp-content/plugins/flip-cards-module-divi/scripts/frontend-bundle.min.js
+[2024-10-17 14:15:27] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 14:15:27] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-17 14:15:27] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 14:15:27] [class-ss-page.php:119] Checking Content Identical:b063bc48868373d01238afec95e5276aec095269===. Value: FALSE
+[2024-10-17 14:15:27] [class-ss-fetch-urls-task.php:72] URL: http://localhost/amoeba/wordpress/wp-content/themes/Divi/core/admin/js/common.js
+[2024-10-17 14:15:27] [class-ss-task.php:58] [PAGES STATUS] Remaining:40; Total: 52
+[2024-10-17 14:15:27] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 14:15:27] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\smnbe\AppData\Local\Temp/67111bff771fc-IjT4OS.tmp
+[2024-10-17 14:15:27] [class-ss-page-handler.php:38] URL Prepared:http://localhost/amoeba/wordpress/wp-content/themes/Divi/core/admin/js/common.js?simply_static_page=12
+[2024-10-17 14:15:27] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/amoeba/wordpress/wp-content/themes/Divi/core/admin/js/common.js?simply_static_page=12
+[2024-10-17 14:15:27] [class-ss-url-fetcher.php:103] Filesize: 1343 bytes
+[2024-10-17 14:15:27] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/javascript
+[2024-10-17 14:15:27] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/Divi/core/admin/js/common.js
+[2024-10-17 14:15:27] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\smnbe\AppData\Local\Temp/67111bff771fc-IjT4OS.tmp to C:\xampp\htdocs\amoeba\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1729174523/wp-content/themes/Divi/core/admin/js/common.js
+[2024-10-17 14:15:27] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 14:15:27] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-17 14:15:27] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 14:15:27] [class-ss-page.php:119] Checking Content Identical:b7820e4ffb6becc133c48f66d9f683545530b959===. Value: FALSE
+[2024-10-17 14:15:27] [class-ss-fetch-urls-task.php:72] URL: http://localhost/amoeba/wordpress/wp-content/themes/Divi/includes/builder/feature/dynamic-assets/assets/js/sticky-elements.js
+[2024-10-17 14:15:27] [class-ss-task.php:58] [PAGES STATUS] Remaining:39; Total: 52
+[2024-10-17 14:15:27] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 14:15:27] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\smnbe\AppData\Local\Temp/67111bff8290a-519RjL.tmp
+[2024-10-17 14:15:27] [class-ss-page-handler.php:38] URL Prepared:http://localhost/amoeba/wordpress/wp-content/themes/Divi/includes/builder/feature/dynamic-assets/assets/js/sticky-elements.js?simply_static_page=13
+[2024-10-17 14:15:27] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/amoeba/wordpress/wp-content/themes/Divi/includes/builder/feature/dynamic-assets/assets/js/sticky-elements.js?simply_static_page=13
+[2024-10-17 14:15:27] [class-ss-url-fetcher.php:103] Filesize: 209048 bytes
+[2024-10-17 14:15:27] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/javascript
+[2024-10-17 14:15:27] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/Divi/includes/builder/feature/dynamic-assets/assets/js/sticky-elements.js
+[2024-10-17 14:15:27] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\smnbe\AppData\Local\Temp/67111bff8290a-519RjL.tmp to C:\xampp\htdocs\amoeba\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1729174523/wp-content/themes/Divi/includes/builder/feature/dynamic-assets/assets/js/sticky-elements.js
+[2024-10-17 14:15:27] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 14:15:27] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-17 14:15:27] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 14:15:27] [class-ss-page.php:119] Checking Content Identical:314facfb70bdceb0f42467de7cb0603a3884dc52===. Value: FALSE
+[2024-10-17 14:15:27] [class-ss-fetch-urls-task.php:72] URL: http://localhost/amoeba/wordpress/xmlrpc.php
+[2024-10-17 14:15:27] [class-ss-task.php:58] [PAGES STATUS] Remaining:38; Total: 52
+[2024-10-17 14:15:27] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/amoeba/wordpress/xmlrpc.php
+[2024-10-17 14:15:27] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-10-17 14:15:27] [class-ss-fetch-urls-task.php:72] URL: http://localhost/amoeba/wordpress/feed/
+[2024-10-17 14:15:27] [class-ss-task.php:58] [PAGES STATUS] Remaining:37; Total: 52
+[2024-10-17 14:15:27] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 14:15:27] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\smnbe\AppData\Local\Temp/67111bff931cb-hER6Pt.tmp
+[2024-10-17 14:15:27] [class-ss-page-handler.php:38] URL Prepared:http://localhost/amoeba/wordpress/feed/?simply_static_page=15
+[2024-10-17 14:15:27] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/amoeba/wordpress/feed/?simply_static_page=15
+[2024-10-17 14:15:28] [class-ss-url-fetcher.php:103] Filesize: 1732 bytes
+[2024-10-17 14:15:28] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-10-17 14:15:28] [class-ss-url-fetcher.php:233] New filename for static page: /feed/index.xml
+[2024-10-17 14:15:28] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\smnbe\AppData\Local\Temp/67111bff931cb-hER6Pt.tmp to C:\xampp\htdocs\amoeba\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1729174523/feed/index.xml
+[2024-10-17 14:15:28] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 14:15:28] [class-ss-fetch-urls-task.php:159] Adding 5 URLs to the queue
+[2024-10-17 14:15:28] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 14:15:28] [class-ss-page.php:119] Checking Content Identical:97ee19ef580eefdb85dcb6dc779e7bde77291d86===. Value: FALSE
+[2024-10-17 14:15:28] [class-ss-fetch-urls-task.php:72] URL: http://localhost/amoeba/wordpress/comments/feed/
+[2024-10-17 14:15:28] [class-ss-task.php:58] [PAGES STATUS] Remaining:36; Total: 52
+[2024-10-17 14:15:28] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 14:15:28] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\smnbe\AppData\Local\Temp/67111c00c439e-whiEDR.tmp
+[2024-10-17 14:15:28] [class-ss-page-handler.php:38] URL Prepared:http://localhost/amoeba/wordpress/comments/feed/?simply_static_page=16
+[2024-10-17 14:15:28] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/amoeba/wordpress/comments/feed/?simply_static_page=16
+[2024-10-17 14:15:29] [class-ss-url-fetcher.php:103] Filesize: 1694 bytes
+[2024-10-17 14:15:29] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-10-17 14:15:29] [class-ss-url-fetcher.php:233] New filename for static page: /comments/feed/index.xml
+[2024-10-17 14:15:29] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\smnbe\AppData\Local\Temp/67111c00c439e-whiEDR.tmp to C:\xampp\htdocs\amoeba\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1729174523/comments/feed/index.xml
+[2024-10-17 14:15:29] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 14:15:29] [class-ss-fetch-urls-task.php:159] Adding 4 URLs to the queue
+[2024-10-17 14:15:29] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 14:15:29] [class-ss-page.php:119] Checking Content Identical:f89e344d6140acecd32498c1c418d59fe54158db===. Value: FALSE
+[2024-10-17 14:15:29] [class-ss-fetch-urls-task.php:72] URL: http://localhost/amoeba/wordpress/wp-content/plugins/scroll-top/assets/css/scroll-top.css
+[2024-10-17 14:15:29] [class-ss-task.php:58] [PAGES STATUS] Remaining:35; Total: 52
+[2024-10-17 14:15:29] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 14:15:29] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\smnbe\AppData\Local\Temp/67111c017f45f-iSc5IV.tmp
+[2024-10-17 14:15:29] [class-ss-page-handler.php:38] URL Prepared:http://localhost/amoeba/wordpress/wp-content/plugins/scroll-top/assets/css/scroll-top.css?simply_static_page=17
+[2024-10-17 14:15:29] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/amoeba/wordpress/wp-content/plugins/scroll-top/assets/css/scroll-top.css?simply_static_page=17
+[2024-10-17 14:15:29] [class-ss-url-fetcher.php:103] Filesize: 158 bytes
+[2024-10-17 14:15:29] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-10-17 14:15:29] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/scroll-top/assets/css/scroll-top.css
+[2024-10-17 14:15:29] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\smnbe\AppData\Local\Temp/67111c017f45f-iSc5IV.tmp to C:\xampp\htdocs\amoeba\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1729174523/wp-content/plugins/scroll-top/assets/css/scroll-top.css
+[2024-10-17 14:15:29] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 14:15:29] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-17 14:15:29] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 14:15:29] [class-ss-page.php:119] Checking Content Identical:be8ff51ece110ff569aa0ec7b14b4407b3b51d73===. Value: FALSE
+[2024-10-17 14:15:29] [class-ss-fetch-urls-task.php:72] URL: http://localhost/amoeba/wordpress/wp-content/et-cache/8/et-divi-dynamic-tb-13-tb-110-8-late.css
+[2024-10-17 14:15:29] [class-ss-task.php:58] [PAGES STATUS] Remaining:34; Total: 52
+[2024-10-17 14:15:29] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 14:15:29] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\smnbe\AppData\Local\Temp/67111c0185b67-HHj0c3.tmp
+[2024-10-17 14:15:29] [class-ss-page-handler.php:38] URL Prepared:http://localhost/amoeba/wordpress/wp-content/et-cache/8/et-divi-dynamic-tb-13-tb-110-8-late.css?simply_static_page=18
+[2024-10-17 14:15:29] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/amoeba/wordpress/wp-content/et-cache/8/et-divi-dynamic-tb-13-tb-110-8-late.css?simply_static_page=18
+[2024-10-17 14:15:29] [class-ss-url-fetcher.php:103] Filesize: 693 bytes
+[2024-10-17 14:15:29] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-10-17 14:15:29] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/et-cache/8/et-divi-dynamic-tb-13-tb-110-8-late.css
+[2024-10-17 14:15:29] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\smnbe\AppData\Local\Temp/67111c0185b67-HHj0c3.tmp to C:\xampp\htdocs\amoeba\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1729174523/wp-content/et-cache/8/et-divi-dynamic-tb-13-tb-110-8-late.css
+[2024-10-17 14:15:29] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 14:15:29] [class-ss-fetch-urls-task.php:159] Adding 4 URLs to the queue
+[2024-10-17 14:15:29] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 14:15:29] [class-ss-page.php:119] Checking Content Identical:5549b08ba092ee2095b8e76353cf30adbbe9c7fc===. Value: FALSE
+[2024-10-17 14:15:29] [class-ss-fetch-urls-task.php:72] URL: http://localhost/amoeba/wordpress/wp-content/et-cache/8/et-divi-dynamic-tb-13-tb-110-8.css
+[2024-10-17 14:15:29] [class-ss-task.php:58] [PAGES STATUS] Remaining:33; Total: 52
+[2024-10-17 14:15:29] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 14:15:29] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\smnbe\AppData\Local\Temp/67111c01918f4-76qDSx.tmp
+[2024-10-17 14:15:29] [class-ss-page-handler.php:38] URL Prepared:http://localhost/amoeba/wordpress/wp-content/et-cache/8/et-divi-dynamic-tb-13-tb-110-8.css?simply_static_page=19
+[2024-10-17 14:15:29] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/amoeba/wordpress/wp-content/et-cache/8/et-divi-dynamic-tb-13-tb-110-8.css?simply_static_page=19
+[2024-10-17 14:15:29] [class-ss-url-fetcher.php:103] Filesize: 1420 bytes
+[2024-10-17 14:15:29] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-10-17 14:15:29] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/et-cache/8/et-divi-dynamic-tb-13-tb-110-8.css
+[2024-10-17 14:15:29] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\smnbe\AppData\Local\Temp/67111c01918f4-76qDSx.tmp to C:\xampp\htdocs\amoeba\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1729174523/wp-content/et-cache/8/et-divi-dynamic-tb-13-tb-110-8.css
+[2024-10-17 14:15:29] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 14:15:29] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-17 14:15:29] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 14:15:29] [class-ss-page.php:119] Checking Content Identical:1608e983c85d20cc0ace90ce78b3f2843a50076c===. Value: FALSE
+[2024-10-17 14:15:29] [class-ss-fetch-urls-task.php:72] URL: http://localhost/amoeba/wordpress/wp-content/plugins/flip-cards-module-divi/styles/style.min.css
+[2024-10-17 14:15:29] [class-ss-task.php:58] [PAGES STATUS] Remaining:32; Total: 52
+[2024-10-17 14:15:29] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 14:15:29] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\smnbe\AppData\Local\Temp/67111c019a1c3-BQ6yZz.tmp
+[2024-10-17 14:15:29] [class-ss-page-handler.php:38] URL Prepared:http://localhost/amoeba/wordpress/wp-content/plugins/flip-cards-module-divi/styles/style.min.css?simply_static_page=20
+[2024-10-17 14:15:29] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/amoeba/wordpress/wp-content/plugins/flip-cards-module-divi/styles/style.min.css?simply_static_page=20
+[2024-10-17 14:15:29] [class-ss-url-fetcher.php:103] Filesize: 2491 bytes
+[2024-10-17 14:15:29] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-10-17 14:15:29] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/flip-cards-module-divi/styles/style.min.css
+[2024-10-17 14:15:29] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\smnbe\AppData\Local\Temp/67111c019a1c3-BQ6yZz.tmp to C:\xampp\htdocs\amoeba\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1729174523/wp-content/plugins/flip-cards-module-divi/styles/style.min.css
+[2024-10-17 14:15:29] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 14:15:29] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-17 14:15:29] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 14:15:29] [class-ss-page.php:119] Checking Content Identical:7605f6d767054f68c9d2e381ac4ebcdb0984ca89===. Value: FALSE
+[2024-10-17 14:15:29] [class-ss-fetch-urls-task.php:72] URL: http://localhost/amoeba/wordpress/wp-content/themes/Divi_Child/style.css
+[2024-10-17 14:15:29] [class-ss-task.php:58] [PAGES STATUS] Remaining:31; Total: 52
+[2024-10-17 14:15:29] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 14:15:29] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\smnbe\AppData\Local\Temp/67111c01a26a9-lA7fh3.tmp
+[2024-10-17 14:15:29] [class-ss-page-handler.php:38] URL Prepared:http://localhost/amoeba/wordpress/wp-content/themes/Divi_Child/style.css?simply_static_page=21
+[2024-10-17 14:15:29] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/amoeba/wordpress/wp-content/themes/Divi_Child/style.css?simply_static_page=21
+[2024-10-17 14:15:29] [class-ss-url-fetcher.php:103] Filesize: 1615 bytes
+[2024-10-17 14:15:29] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-10-17 14:15:29] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/Divi_Child/style.css
+[2024-10-17 14:15:29] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\smnbe\AppData\Local\Temp/67111c01a26a9-lA7fh3.tmp to C:\xampp\htdocs\amoeba\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1729174523/wp-content/themes/Divi_Child/style.css
+[2024-10-17 14:15:29] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 14:15:29] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-17 14:15:29] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 14:15:29] [class-ss-page.php:119] Checking Content Identical:fdb33352d811b3b71c6da00970ad7991cb47ada2===. Value: FALSE
+[2024-10-17 14:15:29] [class-ss-fetch-urls-task.php:72] URL: http://localhost/amoeba/wordpress/wp-json/
+[2024-10-17 14:15:29] [class-ss-task.php:58] [PAGES STATUS] Remaining:30; Total: 52
+[2024-10-17 14:15:29] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 14:15:29] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\smnbe\AppData\Local\Temp/67111c01af6b7-pnin8H.tmp
+[2024-10-17 14:15:29] [class-ss-page-handler.php:38] URL Prepared:http://localhost/amoeba/wordpress/wp-json/?simply_static_page=22
+[2024-10-17 14:15:29] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/amoeba/wordpress/wp-json/?simply_static_page=22
+[2024-10-17 14:15:30] [class-ss-url-fetcher.php:103] Filesize: 220472 bytes
+[2024-10-17 14:15:30] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/json; charset=UTF-8
+[2024-10-17 14:15:30] [class-ss-url-fetcher.php:233] New filename for static page: /wp-json/index.html
+[2024-10-17 14:15:30] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\smnbe\AppData\Local\Temp/67111c01af6b7-pnin8H.tmp to C:\xampp\htdocs\amoeba\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1729174523/wp-json/index.html
+[2024-10-17 14:15:30] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 14:15:30] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-17 14:15:30] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 14:15:30] [class-ss-page.php:119] Checking Content Identical:89d2214ba3f062d81c8159beb40a8006151c7781===. Value: FALSE
+[2024-10-17 14:15:30] [class-ss-fetch-urls-task.php:72] URL: http://localhost/amoeba/wordpress/wp-json/wp/v2/pages/8
+[2024-10-17 14:15:30] [class-ss-task.php:58] [PAGES STATUS] Remaining:29; Total: 52
+[2024-10-17 14:15:30] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 14:15:30] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\smnbe\AppData\Local\Temp/67111c025454d-VektaS.tmp
+[2024-10-17 14:15:30] [class-ss-page-handler.php:38] URL Prepared:http://localhost/amoeba/wordpress/wp-json/wp/v2/pages/8?simply_static_page=23
+[2024-10-17 14:15:30] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/amoeba/wordpress/wp-json/wp/v2/pages/8?simply_static_page=23
+[2024-10-17 14:15:31] [class-ss-url-fetcher.php:103] Filesize: 18124 bytes
+[2024-10-17 14:15:31] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/json; charset=UTF-8
+[2024-10-17 14:15:31] [class-ss-url-fetcher.php:233] New filename for static page: /wp-json/wp/v2/pages/8\index.html
+[2024-10-17 14:15:31] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\smnbe\AppData\Local\Temp/67111c025454d-VektaS.tmp to C:\xampp\htdocs\amoeba\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1729174523/wp-json/wp/v2/pages/8\index.html
+[2024-10-17 14:15:31] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 14:15:31] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-17 14:15:31] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 14:15:31] [class-ss-page.php:119] Checking Content Identical:b19c801cfb1a1f3df6a11a8fb791159798bbba8c===. Value: FALSE
+[2024-10-17 14:15:31] [class-ss-fetch-urls-task.php:72] URL: http://localhost/amoeba/wordpress/wp-json/oembed/1.0/embed
+[2024-10-17 14:15:31] [class-ss-task.php:58] [PAGES STATUS] Remaining:28; Total: 52
+[2024-10-17 14:15:31] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 14:15:31] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\smnbe\AppData\Local\Temp/67111c030cb80-GiqRh9.tmp
+[2024-10-17 14:15:31] [class-ss-page-handler.php:38] URL Prepared:http://localhost/amoeba/wordpress/wp-json/oembed/1.0/embed?simply_static_page=24
+[2024-10-17 14:15:31] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/amoeba/wordpress/wp-json/oembed/1.0/embed?simply_static_page=24
+[2024-10-17 14:15:31] [class-ss-url-fetcher.php:103] Filesize: 115 bytes
+[2024-10-17 14:15:31] [class-ss-url-fetcher.php:119] http_status_code: 400 | content_type: application/json; charset=UTF-8
+[2024-10-17 14:15:31] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-10-17 14:15:31] [class-ss-fetch-urls-task.php:72] URL: http://localhost/amoeba/wordpress/wp-content/et-cache/8/et-core-unified-8.min.css
+[2024-10-17 14:15:31] [class-ss-task.php:58] [PAGES STATUS] Remaining:27; Total: 52
+[2024-10-17 14:15:31] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 14:15:31] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\smnbe\AppData\Local\Temp/67111c03ae921-bGOype.tmp
+[2024-10-17 14:15:31] [class-ss-page-handler.php:38] URL Prepared:http://localhost/amoeba/wordpress/wp-content/et-cache/8/et-core-unified-8.min.css?simply_static_page=25
+[2024-10-17 14:15:31] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/amoeba/wordpress/wp-content/et-cache/8/et-core-unified-8.min.css?simply_static_page=25
+[2024-10-17 14:15:31] [class-ss-url-fetcher.php:103] Filesize: 78 bytes
+[2024-10-17 14:15:31] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-10-17 14:15:31] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/et-cache/8/et-core-unified-8.min.css
+[2024-10-17 14:15:31] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\smnbe\AppData\Local\Temp/67111c03ae921-bGOype.tmp to C:\xampp\htdocs\amoeba\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1729174523/wp-content/et-cache/8/et-core-unified-8.min.css
+[2024-10-17 14:15:31] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 14:15:31] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-17 14:15:31] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 14:15:31] [class-ss-page.php:119] Checking Content Identical:7ba8feb2620f86fc5e1b752f940011a808387d6a===. Value: FALSE
+[2024-10-17 14:15:31] [class-ss-fetch-urls-task.php:72] URL: http://localhost/amoeba/wordpress/wp-content/et-cache/8/et-core-unified-tb-13-tb-110-deferred-8.min.css
+[2024-10-17 14:15:31] [class-ss-task.php:58] [PAGES STATUS] Remaining:26; Total: 52
+[2024-10-17 14:15:31] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 14:15:31] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\smnbe\AppData\Local\Temp/67111c03bc36e-opSvIz.tmp
+[2024-10-17 14:15:31] [class-ss-page-handler.php:38] URL Prepared:http://localhost/amoeba/wordpress/wp-content/et-cache/8/et-core-unified-tb-13-tb-110-deferred-8.min.css?simply_static_page=26
+[2024-10-17 14:15:31] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/amoeba/wordpress/wp-content/et-cache/8/et-core-unified-tb-13-tb-110-deferred-8.min.css?simply_static_page=26
+[2024-10-17 14:15:31] [class-ss-url-fetcher.php:103] Filesize: 4873 bytes
+[2024-10-17 14:15:31] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-10-17 14:15:31] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/et-cache/8/et-core-unified-tb-13-tb-110-deferred-8.min.css
+[2024-10-17 14:15:31] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\smnbe\AppData\Local\Temp/67111c03bc36e-opSvIz.tmp to C:\xampp\htdocs\amoeba\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1729174523/wp-content/et-cache/8/et-core-unified-tb-13-tb-110-deferred-8.min.css
+[2024-10-17 14:15:31] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 14:15:31] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-17 14:15:31] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 14:15:31] [class-ss-page.php:119] Checking Content Identical:760278cc92ec04ba024d773e65079a37acdbec44===. Value: FALSE
+[2024-10-17 14:15:31] [class-ss-fetch-urls-task.php:72] URL: http://localhost/amoeba/wordpress/wp-content/themes/Divi/includes/builder/styles/images/preloader.gif
+[2024-10-17 14:15:31] [class-ss-task.php:58] [PAGES STATUS] Remaining:25; Total: 52
+[2024-10-17 14:15:31] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 14:15:31] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\smnbe\AppData\Local\Temp/67111c03c8186-idhPOl.tmp
+[2024-10-17 14:15:31] [class-ss-page-handler.php:38] URL Prepared:http://localhost/amoeba/wordpress/wp-content/themes/Divi/includes/builder/styles/images/preloader.gif?simply_static_page=27
+[2024-10-17 14:15:31] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/amoeba/wordpress/wp-content/themes/Divi/includes/builder/styles/images/preloader.gif?simply_static_page=27
+[2024-10-17 14:15:31] [class-ss-url-fetcher.php:103] Filesize: 9427 bytes
+[2024-10-17 14:15:31] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/gif
+[2024-10-17 14:15:31] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/Divi/includes/builder/styles/images/preloader.gif
+[2024-10-17 14:15:31] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\smnbe\AppData\Local\Temp/67111c03c8186-idhPOl.tmp to C:\xampp\htdocs\amoeba\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1729174523/wp-content/themes/Divi/includes/builder/styles/images/preloader.gif
+[2024-10-17 14:15:31] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 14:15:31] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-17 14:15:31] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 14:15:31] [class-ss-page.php:119] Checking Content Identical:350a7c0f6b64e19c61b183afef7ffaca57befa30===. Value: FALSE
+[2024-10-17 14:15:31] [class-ss-fetch-urls-task.php:72] URL: http://localhost/amoeba/wordpress/wp-content/themes/Divi/core/admin/fonts/modules/all/modules.eot
+[2024-10-17 14:15:31] [class-ss-task.php:58] [PAGES STATUS] Remaining:24; Total: 52
+[2024-10-17 14:15:31] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 14:15:31] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\smnbe\AppData\Local\Temp/67111c03d738d-zIeePy.tmp
+[2024-10-17 14:15:31] [class-ss-page-handler.php:38] URL Prepared:http://localhost/amoeba/wordpress/wp-content/themes/Divi/core/admin/fonts/modules/all/modules.eot?simply_static_page=28
+[2024-10-17 14:15:31] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/amoeba/wordpress/wp-content/themes/Divi/core/admin/fonts/modules/all/modules.eot?simply_static_page=28
+[2024-10-17 14:15:31] [class-ss-url-fetcher.php:103] Filesize: 92172 bytes
+[2024-10-17 14:15:31] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/vnd.ms-fontobject
+[2024-10-17 14:15:31] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/Divi/core/admin/fonts/modules/all/modules.eot
+[2024-10-17 14:15:31] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\smnbe\AppData\Local\Temp/67111c03d738d-zIeePy.tmp to C:\xampp\htdocs\amoeba\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1729174523/wp-content/themes/Divi/core/admin/fonts/modules/all/modules.eot
+[2024-10-17 14:15:31] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 14:15:31] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-17 14:15:31] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 14:15:31] [class-ss-page.php:119] Checking Content Identical:e5d608e4fb41fe9e03711c783bb688fae802d200===. Value: FALSE
+[2024-10-17 14:15:31] [class-ss-fetch-urls-task.php:72] URL: http://localhost/amoeba/wordpress/wp-content/themes/Divi/core/admin/fonts/modules/all/modules.woff
+[2024-10-17 14:15:31] [class-ss-task.php:58] [PAGES STATUS] Remaining:23; Total: 52
+[2024-10-17 14:15:31] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 14:15:31] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\smnbe\AppData\Local\Temp/67111c03e2471-HfcHVJ.tmp
+[2024-10-17 14:15:31] [class-ss-page-handler.php:38] URL Prepared:http://localhost/amoeba/wordpress/wp-content/themes/Divi/core/admin/fonts/modules/all/modules.woff?simply_static_page=29
+[2024-10-17 14:15:31] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/amoeba/wordpress/wp-content/themes/Divi/core/admin/fonts/modules/all/modules.woff?simply_static_page=29
+[2024-10-17 14:15:31] [class-ss-url-fetcher.php:103] Filesize: 92084 bytes
+[2024-10-17 14:15:31] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff
+[2024-10-17 14:15:31] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/Divi/core/admin/fonts/modules/all/modules.woff
+[2024-10-17 14:15:31] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\smnbe\AppData\Local\Temp/67111c03e2471-HfcHVJ.tmp to C:\xampp\htdocs\amoeba\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1729174523/wp-content/themes/Divi/core/admin/fonts/modules/all/modules.woff
+[2024-10-17 14:15:31] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 14:15:31] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-17 14:15:31] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 14:15:31] [class-ss-page.php:119] Checking Content Identical:5b1d3cd0929108da4b6334c4a487db08c9520f1d===. Value: FALSE
+[2024-10-17 14:15:31] [class-ss-fetch-urls-task.php:72] URL: http://localhost/amoeba/wordpress/wp-content/themes/Divi/core/admin/fonts/modules/all/modules.ttf
+[2024-10-17 14:15:31] [class-ss-task.php:58] [PAGES STATUS] Remaining:22; Total: 52
+[2024-10-17 14:15:31] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 14:15:31] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\smnbe\AppData\Local\Temp/67111c03eee61-C6GtPT.tmp
+[2024-10-17 14:15:31] [class-ss-page-handler.php:38] URL Prepared:http://localhost/amoeba/wordpress/wp-content/themes/Divi/core/admin/fonts/modules/all/modules.ttf?simply_static_page=30
+[2024-10-17 14:15:31] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/amoeba/wordpress/wp-content/themes/Divi/core/admin/fonts/modules/all/modules.ttf?simply_static_page=30
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:103] Filesize: 92008 bytes
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/Divi/core/admin/fonts/modules/all/modules.ttf
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\smnbe\AppData\Local\Temp/67111c03eee61-C6GtPT.tmp to C:\xampp\htdocs\amoeba\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1729174523/wp-content/themes/Divi/core/admin/fonts/modules/all/modules.ttf
+[2024-10-17 14:15:32] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 14:15:32] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-17 14:15:32] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 14:15:32] [class-ss-page.php:119] Checking Content Identical:bb71ed68296fff023bc54673c7f16c594d29be2c===. Value: FALSE
+[2024-10-17 14:15:32] [class-ss-fetch-urls-task.php:72] URL: http://localhost/amoeba/wordpress/wp-content/themes/Divi/core/admin/fonts/modules/all/modules.svg
+[2024-10-17 14:15:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:21; Total: 52
+[2024-10-17 14:15:32] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\smnbe\AppData\Local\Temp/67111c0404459-qfeJNu.tmp
+[2024-10-17 14:15:32] [class-ss-page-handler.php:38] URL Prepared:http://localhost/amoeba/wordpress/wp-content/themes/Divi/core/admin/fonts/modules/all/modules.svg?simply_static_page=31
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/amoeba/wordpress/wp-content/themes/Divi/core/admin/fonts/modules/all/modules.svg?simply_static_page=31
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:103] Filesize: 299189 bytes
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/svg+xml
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/Divi/core/admin/fonts/modules/all/modules.svg
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\smnbe\AppData\Local\Temp/67111c0404459-qfeJNu.tmp to C:\xampp\htdocs\amoeba\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1729174523/wp-content/themes/Divi/core/admin/fonts/modules/all/modules.svg
+[2024-10-17 14:15:32] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 14:15:32] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-17 14:15:32] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 14:15:32] [class-ss-page.php:119] Checking Content Identical:76ca6e283d5dc7cbd0fed07468c9aa76dce22009===. Value: FALSE
+[2024-10-17 14:15:32] [class-ss-fetch-urls-task.php:72] URL: http://localhost/amoeba/wordpress/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-regular-400.eot
+[2024-10-17 14:15:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:20; Total: 52
+[2024-10-17 14:15:32] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\smnbe\AppData\Local\Temp/67111c040ce6f-L1hHWH.tmp
+[2024-10-17 14:15:32] [class-ss-page-handler.php:38] URL Prepared:http://localhost/amoeba/wordpress/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-regular-400.eot?simply_static_page=32
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/amoeba/wordpress/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-regular-400.eot?simply_static_page=32
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:103] Filesize: 34350 bytes
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/vnd.ms-fontobject
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-regular-400.eot
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\smnbe\AppData\Local\Temp/67111c040ce6f-L1hHWH.tmp to C:\xampp\htdocs\amoeba\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1729174523/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-regular-400.eot
+[2024-10-17 14:15:32] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 14:15:32] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-17 14:15:32] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 14:15:32] [class-ss-page.php:119] Checking Content Identical:2baa9a8aa68f1d2d4712b3c7205f9105aaf21879===. Value: FALSE
+[2024-10-17 14:15:32] [class-ss-fetch-urls-task.php:72] URL: http://localhost/amoeba/wordpress/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-regular-400.woff2
+[2024-10-17 14:15:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:19; Total: 52
+[2024-10-17 14:15:32] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\smnbe\AppData\Local\Temp/67111c0417487-B5gn0w.tmp
+[2024-10-17 14:15:32] [class-ss-page-handler.php:38] URL Prepared:http://localhost/amoeba/wordpress/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-regular-400.woff2?simply_static_page=33
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/amoeba/wordpress/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-regular-400.woff2?simply_static_page=33
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:103] Filesize: 13548 bytes
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-regular-400.woff2
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\smnbe\AppData\Local\Temp/67111c0417487-B5gn0w.tmp to C:\xampp\htdocs\amoeba\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1729174523/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-regular-400.woff2
+[2024-10-17 14:15:32] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 14:15:32] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-17 14:15:32] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 14:15:32] [class-ss-page.php:119] Checking Content Identical:fb9648469530a05fa9aac80e47d4d6960472a242===. Value: FALSE
+[2024-10-17 14:15:32] [class-ss-fetch-urls-task.php:72] URL: http://localhost/amoeba/wordpress/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-regular-400.woff
+[2024-10-17 14:15:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:18; Total: 52
+[2024-10-17 14:15:32] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\smnbe\AppData\Local\Temp/67111c04245f9-enVNaD.tmp
+[2024-10-17 14:15:32] [class-ss-page-handler.php:38] URL Prepared:http://localhost/amoeba/wordpress/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-regular-400.woff?simply_static_page=34
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/amoeba/wordpress/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-regular-400.woff?simply_static_page=34
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:103] Filesize: 16772 bytes
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-regular-400.woff
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\smnbe\AppData\Local\Temp/67111c04245f9-enVNaD.tmp to C:\xampp\htdocs\amoeba\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1729174523/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-regular-400.woff
+[2024-10-17 14:15:32] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 14:15:32] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-17 14:15:32] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 14:15:32] [class-ss-page.php:119] Checking Content Identical:26afc29d39ab9fac6d0b607be7e76db093ff7c3a===. Value: FALSE
+[2024-10-17 14:15:32] [class-ss-fetch-urls-task.php:72] URL: http://localhost/amoeba/wordpress/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-regular-400.ttf
+[2024-10-17 14:15:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:17; Total: 52
+[2024-10-17 14:15:32] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\smnbe\AppData\Local\Temp/67111c042fb70-JJnNYc.tmp
+[2024-10-17 14:15:32] [class-ss-page-handler.php:38] URL Prepared:http://localhost/amoeba/wordpress/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-regular-400.ttf?simply_static_page=35
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/amoeba/wordpress/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-regular-400.ttf?simply_static_page=35
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:103] Filesize: 34052 bytes
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-regular-400.ttf
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\smnbe\AppData\Local\Temp/67111c042fb70-JJnNYc.tmp to C:\xampp\htdocs\amoeba\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1729174523/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-regular-400.ttf
+[2024-10-17 14:15:32] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 14:15:32] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-17 14:15:32] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 14:15:32] [class-ss-page.php:119] Checking Content Identical:d64e58981a419de52bac110c979887d34e366135===. Value: FALSE
+[2024-10-17 14:15:32] [class-ss-fetch-urls-task.php:72] URL: http://localhost/amoeba/wordpress/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-regular-400.svg
+[2024-10-17 14:15:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:16; Total: 52
+[2024-10-17 14:15:32] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\smnbe\AppData\Local\Temp/67111c0436d87-0RtNoy.tmp
+[2024-10-17 14:15:32] [class-ss-page-handler.php:38] URL Prepared:http://localhost/amoeba/wordpress/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-regular-400.svg?simply_static_page=36
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/amoeba/wordpress/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-regular-400.svg?simply_static_page=36
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:103] Filesize: 144714 bytes
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/svg+xml
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-regular-400.svg
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\smnbe\AppData\Local\Temp/67111c0436d87-0RtNoy.tmp to C:\xampp\htdocs\amoeba\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1729174523/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-regular-400.svg
+[2024-10-17 14:15:32] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 14:15:32] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-17 14:15:32] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 14:15:32] [class-ss-page.php:119] Checking Content Identical:71774e5ffbbf58d33ddec24fe7cc6d4d76a7fc38===. Value: FALSE
+[2024-10-17 14:15:32] [class-ss-fetch-urls-task.php:72] URL: http://localhost/amoeba/wordpress/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-solid-900.eot
+[2024-10-17 14:15:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:15; Total: 52
+[2024-10-17 14:15:32] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\smnbe\AppData\Local\Temp/67111c044440d-ryImbN.tmp
+[2024-10-17 14:15:32] [class-ss-page-handler.php:38] URL Prepared:http://localhost/amoeba/wordpress/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-solid-900.eot?simply_static_page=37
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/amoeba/wordpress/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-solid-900.eot?simply_static_page=37
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:103] Filesize: 204814 bytes
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/vnd.ms-fontobject
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-solid-900.eot
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\smnbe\AppData\Local\Temp/67111c044440d-ryImbN.tmp to C:\xampp\htdocs\amoeba\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1729174523/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-solid-900.eot
+[2024-10-17 14:15:32] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 14:15:32] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-17 14:15:32] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 14:15:32] [class-ss-page.php:119] Checking Content Identical:c39b89f7fa7b66931ab02a54002db5ffcbff206c===. Value: FALSE
+[2024-10-17 14:15:32] [class-ss-fetch-urls-task.php:72] URL: http://localhost/amoeba/wordpress/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-solid-900.woff2
+[2024-10-17 14:15:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:14; Total: 52
+[2024-10-17 14:15:32] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\smnbe\AppData\Local\Temp/67111c044d8c1-zL724m.tmp
+[2024-10-17 14:15:32] [class-ss-page-handler.php:38] URL Prepared:http://localhost/amoeba/wordpress/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-solid-900.woff2?simply_static_page=38
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/amoeba/wordpress/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-solid-900.woff2?simply_static_page=38
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:103] Filesize: 80300 bytes
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-solid-900.woff2
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\smnbe\AppData\Local\Temp/67111c044d8c1-zL724m.tmp to C:\xampp\htdocs\amoeba\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1729174523/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-solid-900.woff2
+[2024-10-17 14:15:32] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 14:15:32] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-17 14:15:32] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 14:15:32] [class-ss-page.php:119] Checking Content Identical:9b592048b9062b00f0b2dd782d70a95b7dc69b83===. Value: FALSE
+[2024-10-17 14:15:32] [class-ss-fetch-urls-task.php:72] URL: http://localhost/amoeba/wordpress/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-solid-900.woff
+[2024-10-17 14:15:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:13; Total: 52
+[2024-10-17 14:15:32] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\smnbe\AppData\Local\Temp/67111c04541f8-HBjSMd.tmp
+[2024-10-17 14:15:32] [class-ss-page-handler.php:38] URL Prepared:http://localhost/amoeba/wordpress/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-solid-900.woff?simply_static_page=39
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/amoeba/wordpress/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-solid-900.woff?simply_static_page=39
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:103] Filesize: 104280 bytes
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-solid-900.woff
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\smnbe\AppData\Local\Temp/67111c04541f8-HBjSMd.tmp to C:\xampp\htdocs\amoeba\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1729174523/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-solid-900.woff
+[2024-10-17 14:15:32] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 14:15:32] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-17 14:15:32] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 14:15:32] [class-ss-page.php:119] Checking Content Identical:3b86a0ce15d8d534b65e98560e321a933d310688===. Value: FALSE
+[2024-10-17 14:15:32] [class-ss-fetch-urls-task.php:72] URL: http://localhost/amoeba/wordpress/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-solid-900.ttf
+[2024-10-17 14:15:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:12; Total: 52
+[2024-10-17 14:15:32] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\smnbe\AppData\Local\Temp/67111c045e8d0-vGSonx.tmp
+[2024-10-17 14:15:32] [class-ss-page-handler.php:38] URL Prepared:http://localhost/amoeba/wordpress/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-solid-900.ttf?simply_static_page=40
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/amoeba/wordpress/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-solid-900.ttf?simply_static_page=40
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:103] Filesize: 204528 bytes
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-solid-900.ttf
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\smnbe\AppData\Local\Temp/67111c045e8d0-vGSonx.tmp to C:\xampp\htdocs\amoeba\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1729174523/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-solid-900.ttf
+[2024-10-17 14:15:32] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 14:15:32] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-17 14:15:32] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 14:15:32] [class-ss-page.php:119] Checking Content Identical:d537bf4cc7273ddb3fd754d53f2b241aeafaefe7===. Value: FALSE
+[2024-10-17 14:15:32] [class-ss-fetch-urls-task.php:72] URL: http://localhost/amoeba/wordpress/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-solid-900.svg
+[2024-10-17 14:15:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 52
+[2024-10-17 14:15:32] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\smnbe\AppData\Local\Temp/67111c0469cd7-D9l0Wk.tmp
+[2024-10-17 14:15:32] [class-ss-page-handler.php:38] URL Prepared:http://localhost/amoeba/wordpress/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-solid-900.svg?simply_static_page=41
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/amoeba/wordpress/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-solid-900.svg?simply_static_page=41
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:103] Filesize: 917575 bytes
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/svg+xml
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-solid-900.svg
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\smnbe\AppData\Local\Temp/67111c0469cd7-D9l0Wk.tmp to C:\xampp\htdocs\amoeba\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1729174523/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-solid-900.svg
+[2024-10-17 14:15:32] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 14:15:32] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-17 14:15:32] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 14:15:32] [class-ss-page.php:119] Checking Content Identical:e61916fb8ca96b984d70bc1274ccbffc2225c016===. Value: FALSE
+[2024-10-17 14:15:32] [class-ss-fetch-urls-task.php:72] URL: http://localhost/amoeba/wordpress/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-brands-400.eot
+[2024-10-17 14:15:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 52
+[2024-10-17 14:15:32] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\smnbe\AppData\Local\Temp/67111c047cdfb-QbKVlU.tmp
+[2024-10-17 14:15:32] [class-ss-page-handler.php:38] URL Prepared:http://localhost/amoeba/wordpress/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-brands-400.eot?simply_static_page=42
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/amoeba/wordpress/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-brands-400.eot?simply_static_page=42
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:103] Filesize: 136822 bytes
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/vnd.ms-fontobject
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-brands-400.eot
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\smnbe\AppData\Local\Temp/67111c047cdfb-QbKVlU.tmp to C:\xampp\htdocs\amoeba\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1729174523/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-brands-400.eot
+[2024-10-17 14:15:32] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 14:15:32] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-17 14:15:32] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 14:15:32] [class-ss-page.php:119] Checking Content Identical:c719f4375679ee58e156434f9ba9727be669cf07===. Value: FALSE
+[2024-10-17 14:15:32] [class-ss-fetch-urls-task.php:72] URL: http://localhost/amoeba/wordpress/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-brands-400.woff2
+[2024-10-17 14:15:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 52
+[2024-10-17 14:15:32] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\smnbe\AppData\Local\Temp/67111c04832ea-qhgtlH.tmp
+[2024-10-17 14:15:32] [class-ss-page-handler.php:38] URL Prepared:http://localhost/amoeba/wordpress/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-brands-400.woff2?simply_static_page=43
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/amoeba/wordpress/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-brands-400.woff2?simply_static_page=43
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:103] Filesize: 78460 bytes
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-brands-400.woff2
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\smnbe\AppData\Local\Temp/67111c04832ea-qhgtlH.tmp to C:\xampp\htdocs\amoeba\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1729174523/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-brands-400.woff2
+[2024-10-17 14:15:32] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 14:15:32] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-17 14:15:32] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 14:15:32] [class-ss-page.php:119] Checking Content Identical:f726c4275bb494a045fde059175f072de06c01df===. Value: FALSE
+[2024-10-17 14:15:32] [class-ss-fetch-urls-task.php:72] URL: http://localhost/amoeba/wordpress/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-brands-400.woff
+[2024-10-17 14:15:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 52
+[2024-10-17 14:15:32] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\smnbe\AppData\Local\Temp/67111c048943a-bBtQqs.tmp
+[2024-10-17 14:15:32] [class-ss-page-handler.php:38] URL Prepared:http://localhost/amoeba/wordpress/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-brands-400.woff?simply_static_page=44
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/amoeba/wordpress/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-brands-400.woff?simply_static_page=44
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:103] Filesize: 92136 bytes
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-brands-400.woff
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\smnbe\AppData\Local\Temp/67111c048943a-bBtQqs.tmp to C:\xampp\htdocs\amoeba\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1729174523/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-brands-400.woff
+[2024-10-17 14:15:32] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 14:15:32] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-17 14:15:32] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 14:15:32] [class-ss-page.php:119] Checking Content Identical:a42ac4a94f4e0e9333cdb1b2fb6c13c0ae690ff2===. Value: FALSE
+[2024-10-17 14:15:32] [class-ss-fetch-urls-task.php:72] URL: http://localhost/amoeba/wordpress/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-brands-400.ttf
+[2024-10-17 14:15:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 52
+[2024-10-17 14:15:32] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\smnbe\AppData\Local\Temp/67111c048f513-JrXGKs.tmp
+[2024-10-17 14:15:32] [class-ss-page-handler.php:38] URL Prepared:http://localhost/amoeba/wordpress/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-brands-400.ttf?simply_static_page=45
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/amoeba/wordpress/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-brands-400.ttf?simply_static_page=45
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:103] Filesize: 136516 bytes
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-brands-400.ttf
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\smnbe\AppData\Local\Temp/67111c048f513-JrXGKs.tmp to C:\xampp\htdocs\amoeba\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1729174523/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-brands-400.ttf
+[2024-10-17 14:15:32] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 14:15:32] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-17 14:15:32] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 14:15:32] [class-ss-page.php:119] Checking Content Identical:9b49c6c5b0cbdef158ae31b2a4e4814555408389===. Value: FALSE
+[2024-10-17 14:15:32] [class-ss-fetch-urls-task.php:72] URL: http://localhost/amoeba/wordpress/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-brands-400.svg
+[2024-10-17 14:15:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 52
+[2024-10-17 14:15:32] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\smnbe\AppData\Local\Temp/67111c049b94f-dWnI7Q.tmp
+[2024-10-17 14:15:32] [class-ss-page-handler.php:38] URL Prepared:http://localhost/amoeba/wordpress/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-brands-400.svg?simply_static_page=46
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/amoeba/wordpress/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-brands-400.svg?simply_static_page=46
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:103] Filesize: 747545 bytes
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/svg+xml
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-brands-400.svg
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\smnbe\AppData\Local\Temp/67111c049b94f-dWnI7Q.tmp to C:\xampp\htdocs\amoeba\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1729174523/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-brands-400.svg
+[2024-10-17 14:15:32] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 14:15:32] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-17 14:15:32] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 14:15:32] [class-ss-page.php:119] Checking Content Identical:63c762983ffe489e2a16ce4e97e020fd5251eca9===. Value: FALSE
+[2024-10-17 14:15:32] [class-ss-fetch-urls-task.php:72] URL: http://localhost/amoeba/wordpress/wp-content/uploads/2024/10/1.jpg
+[2024-10-17 14:15:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 52
+[2024-10-17 14:15:32] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\smnbe\AppData\Local\Temp/67111c04a492e-SexrR0.tmp
+[2024-10-17 14:15:32] [class-ss-page-handler.php:38] URL Prepared:http://localhost/amoeba/wordpress/wp-content/uploads/2024/10/1.jpg?simply_static_page=47
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/amoeba/wordpress/wp-content/uploads/2024/10/1.jpg?simply_static_page=47
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:103] Filesize: 174523 bytes
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/10/1.jpg
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\smnbe\AppData\Local\Temp/67111c04a492e-SexrR0.tmp to C:\xampp\htdocs\amoeba\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1729174523/wp-content/uploads/2024/10/1.jpg
+[2024-10-17 14:15:32] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 14:15:32] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-17 14:15:32] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 14:15:32] [class-ss-page.php:119] Checking Content Identical:ce8b574bd8d070a6206d660bf7769df3673b4445===. Value: FALSE
+[2024-10-17 14:15:32] [class-ss-fetch-urls-task.php:72] URL: http://localhost/amoeba/wordpress/wp-content/uploads/2024/10/2.jpg
+[2024-10-17 14:15:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 52
+[2024-10-17 14:15:32] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\smnbe\AppData\Local\Temp/67111c04aef71-Nx0Wmy.tmp
+[2024-10-17 14:15:32] [class-ss-page-handler.php:38] URL Prepared:http://localhost/amoeba/wordpress/wp-content/uploads/2024/10/2.jpg?simply_static_page=48
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/amoeba/wordpress/wp-content/uploads/2024/10/2.jpg?simply_static_page=48
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:103] Filesize: 175120 bytes
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/10/2.jpg
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\smnbe\AppData\Local\Temp/67111c04aef71-Nx0Wmy.tmp to C:\xampp\htdocs\amoeba\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1729174523/wp-content/uploads/2024/10/2.jpg
+[2024-10-17 14:15:32] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 14:15:32] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-17 14:15:32] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 14:15:32] [class-ss-page.php:119] Checking Content Identical:2d2f4a470a1002df7a29f312d20e459125624186===. Value: FALSE
+[2024-10-17 14:15:32] [class-ss-fetch-urls-task.php:72] URL: http://localhost/amoeba/wordpress/wp-content/uploads/2024/10/3.jpg
+[2024-10-17 14:15:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 52
+[2024-10-17 14:15:32] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\smnbe\AppData\Local\Temp/67111c04bb05f-ZrhQIn.tmp
+[2024-10-17 14:15:32] [class-ss-page-handler.php:38] URL Prepared:http://localhost/amoeba/wordpress/wp-content/uploads/2024/10/3.jpg?simply_static_page=49
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/amoeba/wordpress/wp-content/uploads/2024/10/3.jpg?simply_static_page=49
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:103] Filesize: 155954 bytes
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/10/3.jpg
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\smnbe\AppData\Local\Temp/67111c04bb05f-ZrhQIn.tmp to C:\xampp\htdocs\amoeba\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1729174523/wp-content/uploads/2024/10/3.jpg
+[2024-10-17 14:15:32] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 14:15:32] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-17 14:15:32] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 14:15:32] [class-ss-page.php:119] Checking Content Identical:47f5ba6d7c797803772c7dadcacc81d5c39aa064===. Value: FALSE
+[2024-10-17 14:15:32] [class-ss-fetch-urls-task.php:72] URL: http://localhost/amoeba/wordpress/wp-content/uploads/2024/10/5.jpg
+[2024-10-17 14:15:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 52
+[2024-10-17 14:15:32] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\smnbe\AppData\Local\Temp/67111c04c14c8-QIVmZr.tmp
+[2024-10-17 14:15:32] [class-ss-page-handler.php:38] URL Prepared:http://localhost/amoeba/wordpress/wp-content/uploads/2024/10/5.jpg?simply_static_page=50
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/amoeba/wordpress/wp-content/uploads/2024/10/5.jpg?simply_static_page=50
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:103] Filesize: 303066 bytes
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/10/5.jpg
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\smnbe\AppData\Local\Temp/67111c04c14c8-QIVmZr.tmp to C:\xampp\htdocs\amoeba\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1729174523/wp-content/uploads/2024/10/5.jpg
+[2024-10-17 14:15:32] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 14:15:32] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-17 14:15:32] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 14:15:32] [class-ss-page.php:119] Checking Content Identical:b8e288eed66d325dc74cf53c871fcef38a00e8a8===. Value: FALSE
+[2024-10-17 14:15:32] [class-ss-fetch-urls-task.php:72] URL: http://localhost/amoeba/wordpress/wp-content/uploads/2024/10/4.jpg
+[2024-10-17 14:15:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 52
+[2024-10-17 14:15:32] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\smnbe\AppData\Local\Temp/67111c04cf292-vFdVB1.tmp
+[2024-10-17 14:15:32] [class-ss-page-handler.php:38] URL Prepared:http://localhost/amoeba/wordpress/wp-content/uploads/2024/10/4.jpg?simply_static_page=51
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/amoeba/wordpress/wp-content/uploads/2024/10/4.jpg?simply_static_page=51
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:103] Filesize: 132929 bytes
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/10/4.jpg
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\smnbe\AppData\Local\Temp/67111c04cf292-vFdVB1.tmp to C:\xampp\htdocs\amoeba\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1729174523/wp-content/uploads/2024/10/4.jpg
+[2024-10-17 14:15:32] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 14:15:32] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-17 14:15:32] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 14:15:32] [class-ss-page.php:119] Checking Content Identical:aae4e42529596a6c5b42fa63c749382ff57acbe6===. Value: FALSE
+[2024-10-17 14:15:32] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 1 of 52 pages/files
+[2024-10-17 14:15:32] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-10-17 14:15:32] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-10-17 14:15:32] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-10-17 14:15:32] [class-ss-fetch-urls-task.php:69] Total pages: 64; Pages remaining: 13
+[2024-10-17 14:15:32] [class-ss-fetch-urls-task.php:72] URL: http://localhost/amoeba/wordpress/wp-content/uploads/2024/10/6.jpg
+[2024-10-17 14:15:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:13; Total: 64
+[2024-10-17 14:15:32] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\smnbe\AppData\Local\Temp/67111c04dd49b-giLHDi.tmp
+[2024-10-17 14:15:32] [class-ss-page-handler.php:38] URL Prepared:http://localhost/amoeba/wordpress/wp-content/uploads/2024/10/6.jpg?simply_static_page=52
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/amoeba/wordpress/wp-content/uploads/2024/10/6.jpg?simply_static_page=52
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:103] Filesize: 186175 bytes
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/10/6.jpg
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\smnbe\AppData\Local\Temp/67111c04dd49b-giLHDi.tmp to C:\xampp\htdocs\amoeba\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1729174523/wp-content/uploads/2024/10/6.jpg
+[2024-10-17 14:15:32] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 14:15:32] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-17 14:15:32] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 14:15:32] [class-ss-page.php:119] Checking Content Identical:520801e484cf7c53e4a443eecaf1eb94de821a0d===. Value: FALSE
+[2024-10-17 14:15:32] [class-ss-fetch-urls-task.php:72] URL: http://localhost/amoeba/wordpress/wp-content/uploads/2024/10/our-mission-icon-1.png
+[2024-10-17 14:15:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:12; Total: 64
+[2024-10-17 14:15:32] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\smnbe\AppData\Local\Temp/67111c04eb72f-WmjpAr.tmp
+[2024-10-17 14:15:32] [class-ss-page-handler.php:38] URL Prepared:http://localhost/amoeba/wordpress/wp-content/uploads/2024/10/our-mission-icon-1.png?simply_static_page=53
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/amoeba/wordpress/wp-content/uploads/2024/10/our-mission-icon-1.png?simply_static_page=53
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:103] Filesize: 16205 bytes
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/10/our-mission-icon-1.png
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\smnbe\AppData\Local\Temp/67111c04eb72f-WmjpAr.tmp to C:\xampp\htdocs\amoeba\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1729174523/wp-content/uploads/2024/10/our-mission-icon-1.png
+[2024-10-17 14:15:32] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 14:15:32] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-17 14:15:32] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 14:15:32] [class-ss-page.php:119] Checking Content Identical:bec68ff5e6df37c3ac3c36cdd1722af021df2193===. Value: FALSE
+[2024-10-17 14:15:32] [class-ss-fetch-urls-task.php:72] URL: http://localhost/amoeba/wordpress/wp-content/uploads/2024/10/our-vision-icon.png
+[2024-10-17 14:15:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 64
+[2024-10-17 14:15:32] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\smnbe\AppData\Local\Temp/67111c04f11d1-0dEwpr.tmp
+[2024-10-17 14:15:32] [class-ss-page-handler.php:38] URL Prepared:http://localhost/amoeba/wordpress/wp-content/uploads/2024/10/our-vision-icon.png?simply_static_page=54
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/amoeba/wordpress/wp-content/uploads/2024/10/our-vision-icon.png?simply_static_page=54
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:103] Filesize: 17036 bytes
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-10-17 14:15:32] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/10/our-vision-icon.png
+[2024-10-17 14:15:33] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\smnbe\AppData\Local\Temp/67111c04f11d1-0dEwpr.tmp to C:\xampp\htdocs\amoeba\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1729174523/wp-content/uploads/2024/10/our-vision-icon.png
+[2024-10-17 14:15:33] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 14:15:33] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-17 14:15:33] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 14:15:33] [class-ss-page.php:119] Checking Content Identical:bf9a6fdc54f33a9a13d16f8d9dec582820da1016===. Value: FALSE
+[2024-10-17 14:15:33] [class-ss-fetch-urls-task.php:72] URL: http://localhost/amoeba/wordpress/wp-content/uploads/2024/10/values-icon-final2.png
+[2024-10-17 14:15:33] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 64
+[2024-10-17 14:15:33] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 14:15:33] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\smnbe\AppData\Local\Temp/67111c0503c20-SSAvo5.tmp
+[2024-10-17 14:15:33] [class-ss-page-handler.php:38] URL Prepared:http://localhost/amoeba/wordpress/wp-content/uploads/2024/10/values-icon-final2.png?simply_static_page=55
+[2024-10-17 14:15:33] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/amoeba/wordpress/wp-content/uploads/2024/10/values-icon-final2.png?simply_static_page=55
+[2024-10-17 14:15:33] [class-ss-url-fetcher.php:103] Filesize: 10020 bytes
+[2024-10-17 14:15:33] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-10-17 14:15:33] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/10/values-icon-final2.png
+[2024-10-17 14:15:33] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\smnbe\AppData\Local\Temp/67111c0503c20-SSAvo5.tmp to C:\xampp\htdocs\amoeba\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1729174523/wp-content/uploads/2024/10/values-icon-final2.png
+[2024-10-17 14:15:33] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 14:15:33] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-17 14:15:33] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 14:15:33] [class-ss-page.php:119] Checking Content Identical:cbb71400cc0a7f29becdf96b578d91c6046c18d0===. Value: FALSE
+[2024-10-17 14:15:33] [class-ss-fetch-urls-task.php:72] URL: http://localhost/amoeba/wordpress/wp-json/wp/v2/pages/186
+[2024-10-17 14:15:33] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 64
+[2024-10-17 14:15:33] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 14:15:33] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\smnbe\AppData\Local\Temp/67111c050c1cb-3XSQZN.tmp
+[2024-10-17 14:15:33] [class-ss-page-handler.php:38] URL Prepared:http://localhost/amoeba/wordpress/wp-json/wp/v2/pages/186?simply_static_page=56
+[2024-10-17 14:15:33] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/amoeba/wordpress/wp-json/wp/v2/pages/186?simply_static_page=56
+[2024-10-17 14:15:33] [class-ss-url-fetcher.php:103] Filesize: 7412 bytes
+[2024-10-17 14:15:33] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/json; charset=UTF-8
+[2024-10-17 14:15:33] [class-ss-url-fetcher.php:233] New filename for static page: /wp-json/wp/v2/pages/186\index.html
+[2024-10-17 14:15:33] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\smnbe\AppData\Local\Temp/67111c050c1cb-3XSQZN.tmp to C:\xampp\htdocs\amoeba\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1729174523/wp-json/wp/v2/pages/186\index.html
+[2024-10-17 14:15:33] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 14:15:33] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-17 14:15:33] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 14:15:33] [class-ss-page.php:119] Checking Content Identical:81e06c0bce1094edc04457dab39994b92bd1eb18===. Value: FALSE
+[2024-10-17 14:15:33] [class-ss-fetch-urls-task.php:72] URL: http://localhost/amoeba/wordpress/wp-content/et-cache/186/et-core-unified-186.min.css
+[2024-10-17 14:15:33] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 64
+[2024-10-17 14:15:33] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 14:15:33] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\smnbe\AppData\Local\Temp/67111c05bc1ee-D6MqBG.tmp
+[2024-10-17 14:15:33] [class-ss-page-handler.php:38] URL Prepared:http://localhost/amoeba/wordpress/wp-content/et-cache/186/et-core-unified-186.min.css?simply_static_page=57
+[2024-10-17 14:15:33] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/amoeba/wordpress/wp-content/et-cache/186/et-core-unified-186.min.css?simply_static_page=57
+[2024-10-17 14:15:33] [class-ss-url-fetcher.php:103] Filesize: 78 bytes
+[2024-10-17 14:15:33] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-10-17 14:15:33] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/et-cache/186/et-core-unified-186.min.css
+[2024-10-17 14:15:33] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\smnbe\AppData\Local\Temp/67111c05bc1ee-D6MqBG.tmp to C:\xampp\htdocs\amoeba\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1729174523/wp-content/et-cache/186/et-core-unified-186.min.css
+[2024-10-17 14:15:33] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 14:15:33] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-17 14:15:33] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 14:15:33] [class-ss-page.php:119] Checking Content Identical:7ba8feb2620f86fc5e1b752f940011a808387d6a===. Value: FALSE
+[2024-10-17 14:15:33] [class-ss-fetch-urls-task.php:72] URL: http://localhost/amoeba/wordpress
+[2024-10-17 14:15:33] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 64
+[2024-10-17 14:15:33] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 14:15:33] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\smnbe\AppData\Local\Temp/67111c05c397f-60BOZ8.tmp
+[2024-10-17 14:15:33] [class-ss-page-handler.php:38] URL Prepared:http://localhost/amoeba/wordpress?simply_static_page=58
+[2024-10-17 14:15:33] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/amoeba/wordpress?simply_static_page=58
+[2024-10-17 14:15:33] [class-ss-url-fetcher.php:103] Filesize: 363 bytes
+[2024-10-17 14:15:33] [class-ss-url-fetcher.php:119] http_status_code: 301 | content_type: text/html; charset=iso-8859-1
+[2024-10-17 14:15:33] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-10-17 14:15:33] [class-ss-fetch-urls-task.php:204] redirect_url: http://localhost/amoeba/wordpress/
+[2024-10-17 14:15:33] [class-ss-fetch-urls-task.php:213] This is a redirect to a trailing slashed version of the same page; adding new URL to the queue
+[2024-10-17 14:15:33] [class-ss-fetch-urls-task.php:72] URL: http://localhost/amoeba/wordpress/2024/08/28/hello-world/
+[2024-10-17 14:15:33] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 64
+[2024-10-17 14:15:33] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 14:15:33] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\smnbe\AppData\Local\Temp/67111c05c8a00-KQgZdg.tmp
+[2024-10-17 14:15:33] [class-ss-page-handler.php:38] URL Prepared:http://localhost/amoeba/wordpress/2024/08/28/hello-world/?simply_static_page=59
+[2024-10-17 14:15:33] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/amoeba/wordpress/2024/08/28/hello-world/?simply_static_page=59
+[2024-10-17 14:15:34] [class-ss-url-fetcher.php:103] Filesize: 178608 bytes
+[2024-10-17 14:15:34] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-10-17 14:15:34] [class-ss-url-fetcher.php:233] New filename for static page: /2024/08/28/hello-world/index.html
+[2024-10-17 14:15:34] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\smnbe\AppData\Local\Temp/67111c05c8a00-KQgZdg.tmp to C:\xampp\htdocs\amoeba\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1729174523/2024/08/28/hello-world/index.html
+[2024-10-17 14:15:34] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 14:15:34] [class-ss-fetch-urls-task.php:159] Adding 45 URLs to the queue
+[2024-10-17 14:15:35] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 14:15:35] [class-ss-page.php:119] Checking Content Identical:f4359bd9c339442a976815bca187176b9736c81f===. Value: FALSE
+[2024-10-17 14:15:35] [class-ss-fetch-urls-task.php:72] URL: http://localhost/amoeba/wordpress/2024/08/28/hello-world/feed/
+[2024-10-17 14:15:35] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 64
+[2024-10-17 14:15:35] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 14:15:35] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\smnbe\AppData\Local\Temp/67111c070b71d-x9eQqW.tmp
+[2024-10-17 14:15:35] [class-ss-page-handler.php:38] URL Prepared:http://localhost/amoeba/wordpress/2024/08/28/hello-world/feed/?simply_static_page=60
+[2024-10-17 14:15:35] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/amoeba/wordpress/2024/08/28/hello-world/feed/?simply_static_page=60
+[2024-10-17 14:15:35] [class-ss-url-fetcher.php:103] Filesize: 1715 bytes
+[2024-10-17 14:15:35] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-10-17 14:15:35] [class-ss-url-fetcher.php:233] New filename for static page: /2024/08/28/hello-world/feed/index.xml
+[2024-10-17 14:15:35] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\smnbe\AppData\Local\Temp/67111c070b71d-x9eQqW.tmp to C:\xampp\htdocs\amoeba\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1729174523/2024/08/28/hello-world/feed/index.xml
+[2024-10-17 14:15:35] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 14:15:35] [class-ss-fetch-urls-task.php:159] Adding 3 URLs to the queue
+[2024-10-17 14:15:35] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 14:15:35] [class-ss-page.php:119] Checking Content Identical:8ef5a952867fdfb58bf8bcc1219c7f58e6ce5636===. Value: FALSE
+[2024-10-17 14:15:35] [class-ss-fetch-urls-task.php:72] URL: http://localhost/amoeba/wordpress/wp-content/themes/Divi/core/admin/fonts/modules/social/modules.eot
+[2024-10-17 14:15:35] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 64
+[2024-10-17 14:15:35] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 14:15:35] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\smnbe\AppData\Local\Temp/67111c07c8a4e-8V22jq.tmp
+[2024-10-17 14:15:35] [class-ss-page-handler.php:38] URL Prepared:http://localhost/amoeba/wordpress/wp-content/themes/Divi/core/admin/fonts/modules/social/modules.eot?simply_static_page=61
+[2024-10-17 14:15:35] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/amoeba/wordpress/wp-content/themes/Divi/core/admin/fonts/modules/social/modules.eot?simply_static_page=61
+[2024-10-17 14:15:35] [class-ss-url-fetcher.php:103] Filesize: 10416 bytes
+[2024-10-17 14:15:35] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/vnd.ms-fontobject
+[2024-10-17 14:15:35] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/Divi/core/admin/fonts/modules/social/modules.eot
+[2024-10-17 14:15:35] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\smnbe\AppData\Local\Temp/67111c07c8a4e-8V22jq.tmp to C:\xampp\htdocs\amoeba\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1729174523/wp-content/themes/Divi/core/admin/fonts/modules/social/modules.eot
+[2024-10-17 14:15:35] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 14:15:35] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-17 14:15:35] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 14:15:35] [class-ss-page.php:119] Checking Content Identical:3537f07c8caeb6e729af714734dcba6681384ff4===. Value: FALSE
+[2024-10-17 14:15:35] [class-ss-fetch-urls-task.php:72] URL: http://localhost/amoeba/wordpress/wp-content/themes/Divi/core/admin/fonts/modules/social/modules.woff
+[2024-10-17 14:15:35] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 64
+[2024-10-17 14:15:35] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 14:15:35] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\smnbe\AppData\Local\Temp/67111c07d415a-QuRgfI.tmp
+[2024-10-17 14:15:35] [class-ss-page-handler.php:38] URL Prepared:http://localhost/amoeba/wordpress/wp-content/themes/Divi/core/admin/fonts/modules/social/modules.woff?simply_static_page=62
+[2024-10-17 14:15:35] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/amoeba/wordpress/wp-content/themes/Divi/core/admin/fonts/modules/social/modules.woff?simply_static_page=62
+[2024-10-17 14:15:35] [class-ss-url-fetcher.php:103] Filesize: 10320 bytes
+[2024-10-17 14:15:35] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff
+[2024-10-17 14:15:35] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/Divi/core/admin/fonts/modules/social/modules.woff
+[2024-10-17 14:15:35] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\smnbe\AppData\Local\Temp/67111c07d415a-QuRgfI.tmp to C:\xampp\htdocs\amoeba\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1729174523/wp-content/themes/Divi/core/admin/fonts/modules/social/modules.woff
+[2024-10-17 14:15:35] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 14:15:35] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-17 14:15:35] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 14:15:35] [class-ss-page.php:119] Checking Content Identical:d06eaf6333705bca4e0cd25174b3e3e3b9b66804===. Value: FALSE
+[2024-10-17 14:15:35] [class-ss-fetch-urls-task.php:72] URL: http://localhost/amoeba/wordpress/wp-content/themes/Divi/core/admin/fonts/modules/social/modules.ttf
+[2024-10-17 14:15:35] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 64
+[2024-10-17 14:15:35] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 14:15:35] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\smnbe\AppData\Local\Temp/67111c07db20b-Kp8x7e.tmp
+[2024-10-17 14:15:35] [class-ss-page-handler.php:38] URL Prepared:http://localhost/amoeba/wordpress/wp-content/themes/Divi/core/admin/fonts/modules/social/modules.ttf?simply_static_page=63
+[2024-10-17 14:15:35] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/amoeba/wordpress/wp-content/themes/Divi/core/admin/fonts/modules/social/modules.ttf?simply_static_page=63
+[2024-10-17 14:15:35] [class-ss-url-fetcher.php:103] Filesize: 10244 bytes
+[2024-10-17 14:15:35] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
+[2024-10-17 14:15:35] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/Divi/core/admin/fonts/modules/social/modules.ttf
+[2024-10-17 14:15:35] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\smnbe\AppData\Local\Temp/67111c07db20b-Kp8x7e.tmp to C:\xampp\htdocs\amoeba\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1729174523/wp-content/themes/Divi/core/admin/fonts/modules/social/modules.ttf
+[2024-10-17 14:15:35] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 14:15:35] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-17 14:15:35] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 14:15:35] [class-ss-page.php:119] Checking Content Identical:896b1f0662b256dad0de3e9d6ff2e2f12fc3fadd===. Value: FALSE
+[2024-10-17 14:15:35] [class-ss-fetch-urls-task.php:72] URL: http://localhost/amoeba/wordpress/wp-content/themes/Divi/core/admin/fonts/modules/social/modules.svg
+[2024-10-17 14:15:35] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 64
+[2024-10-17 14:15:35] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 14:15:35] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\smnbe\AppData\Local\Temp/67111c07e24ce-2hyjar.tmp
+[2024-10-17 14:15:35] [class-ss-page-handler.php:38] URL Prepared:http://localhost/amoeba/wordpress/wp-content/themes/Divi/core/admin/fonts/modules/social/modules.svg?simply_static_page=64
+[2024-10-17 14:15:35] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/amoeba/wordpress/wp-content/themes/Divi/core/admin/fonts/modules/social/modules.svg?simply_static_page=64
+[2024-10-17 14:15:35] [class-ss-url-fetcher.php:103] Filesize: 30889 bytes
+[2024-10-17 14:15:35] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/svg+xml
+[2024-10-17 14:15:35] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/Divi/core/admin/fonts/modules/social/modules.svg
+[2024-10-17 14:15:35] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\smnbe\AppData\Local\Temp/67111c07e24ce-2hyjar.tmp to C:\xampp\htdocs\amoeba\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1729174523/wp-content/themes/Divi/core/admin/fonts/modules/social/modules.svg
+[2024-10-17 14:15:35] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 14:15:35] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-17 14:15:35] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 14:15:35] [class-ss-page.php:119] Checking Content Identical:7d9137ba557567cde623bc46edbcac6f06a1b9a8===. Value: FALSE
+[2024-10-17 14:15:35] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 51 of 64 pages/files
+[2024-10-17 14:15:35] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-10-17 14:15:35] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-10-17 14:15:35] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-10-17 14:15:35] [class-ss-fetch-urls-task.php:69] Total pages: 69; Pages remaining: 5
+[2024-10-17 14:15:35] [class-ss-fetch-urls-task.php:72] URL: http://localhost/amoeba/wordpress/wp-includes/js/comment-reply.min.js
+[2024-10-17 14:15:35] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 69
+[2024-10-17 14:15:35] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 14:15:35] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\smnbe\AppData\Local\Temp/67111c07ee8d4-emttDh.tmp
+[2024-10-17 14:15:35] [class-ss-page-handler.php:38] URL Prepared:http://localhost/amoeba/wordpress/wp-includes/js/comment-reply.min.js?simply_static_page=65
+[2024-10-17 14:15:35] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/amoeba/wordpress/wp-includes/js/comment-reply.min.js?simply_static_page=65
+[2024-10-17 14:15:35] [class-ss-url-fetcher.php:103] Filesize: 2981 bytes
+[2024-10-17 14:15:35] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/javascript
+[2024-10-17 14:15:35] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/comment-reply.min.js
+[2024-10-17 14:15:35] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\smnbe\AppData\Local\Temp/67111c07ee8d4-emttDh.tmp to C:\xampp\htdocs\amoeba\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1729174523/wp-includes/js/comment-reply.min.js
+[2024-10-17 14:15:35] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 14:15:35] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-17 14:15:35] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 14:15:36] [class-ss-page.php:119] Checking Content Identical:db36a77f6aaa2063bfbec02c2c0e967438c5a245===. Value: FALSE
+[2024-10-17 14:15:36] [class-ss-fetch-urls-task.php:72] URL: http://localhost/amoeba/wordpress/wp-content/themes/Divi/includes/builder/feature/dynamic-assets/assets/js/jquery.fitvids.js
+[2024-10-17 14:15:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 69
+[2024-10-17 14:15:36] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 14:15:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\smnbe\AppData\Local\Temp/67111c080238d-L85cwv.tmp
+[2024-10-17 14:15:36] [class-ss-page-handler.php:38] URL Prepared:http://localhost/amoeba/wordpress/wp-content/themes/Divi/includes/builder/feature/dynamic-assets/assets/js/jquery.fitvids.js?simply_static_page=66
+[2024-10-17 14:15:36] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/amoeba/wordpress/wp-content/themes/Divi/includes/builder/feature/dynamic-assets/assets/js/jquery.fitvids.js?simply_static_page=66
+[2024-10-17 14:15:36] [class-ss-url-fetcher.php:103] Filesize: 3349 bytes
+[2024-10-17 14:15:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/javascript
+[2024-10-17 14:15:36] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/Divi/includes/builder/feature/dynamic-assets/assets/js/jquery.fitvids.js
+[2024-10-17 14:15:36] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\smnbe\AppData\Local\Temp/67111c080238d-L85cwv.tmp to C:\xampp\htdocs\amoeba\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1729174523/wp-content/themes/Divi/includes/builder/feature/dynamic-assets/assets/js/jquery.fitvids.js
+[2024-10-17 14:15:36] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 14:15:36] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-17 14:15:36] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 14:15:36] [class-ss-page.php:119] Checking Content Identical:9c1dc49e9747758e033c0e9a7d016401bd78602c===. Value: FALSE
+[2024-10-17 14:15:36] [class-ss-fetch-urls-task.php:72] URL: http://localhost/amoeba/wordpress/wp-includes/css/dist/block-library/style.min.css
+[2024-10-17 14:15:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 69
+[2024-10-17 14:15:36] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 14:15:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\smnbe\AppData\Local\Temp/67111c080ae3a-Y2Ox6b.tmp
+[2024-10-17 14:15:36] [class-ss-page-handler.php:38] URL Prepared:http://localhost/amoeba/wordpress/wp-includes/css/dist/block-library/style.min.css?simply_static_page=67
+[2024-10-17 14:15:36] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/amoeba/wordpress/wp-includes/css/dist/block-library/style.min.css?simply_static_page=67
+[2024-10-17 14:15:36] [class-ss-url-fetcher.php:103] Filesize: 112427 bytes
+[2024-10-17 14:15:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-10-17 14:15:36] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/css/dist/block-library/style.min.css
+[2024-10-17 14:15:36] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\smnbe\AppData\Local\Temp/67111c080ae3a-Y2Ox6b.tmp to C:\xampp\htdocs\amoeba\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1729174523/wp-includes/css/dist/block-library/style.min.css
+[2024-10-17 14:15:36] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 14:15:36] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-17 14:15:36] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 14:15:36] [class-ss-page.php:119] Checking Content Identical:e23bc18ef1b0f78f7010e3c16e4c5e1f333248bd===. Value: FALSE
+[2024-10-17 14:15:36] [class-ss-fetch-urls-task.php:72] URL: http://localhost/amoeba/wordpress/wp-json/wp/v2/posts/1
+[2024-10-17 14:15:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 69
+[2024-10-17 14:15:36] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 14:15:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\smnbe\AppData\Local\Temp/67111c081d098-QqCeYQ.tmp
+[2024-10-17 14:15:36] [class-ss-page-handler.php:38] URL Prepared:http://localhost/amoeba/wordpress/wp-json/wp/v2/posts/1?simply_static_page=68
+[2024-10-17 14:15:36] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/amoeba/wordpress/wp-json/wp/v2/posts/1?simply_static_page=68
+[2024-10-17 14:15:36] [class-ss-url-fetcher.php:103] Filesize: 2055 bytes
+[2024-10-17 14:15:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/json; charset=UTF-8
+[2024-10-17 14:15:36] [class-ss-url-fetcher.php:233] New filename for static page: /wp-json/wp/v2/posts/1\index.html
+[2024-10-17 14:15:36] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\smnbe\AppData\Local\Temp/67111c081d098-QqCeYQ.tmp to C:\xampp\htdocs\amoeba\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1729174523/wp-json/wp/v2/posts/1\index.html
+[2024-10-17 14:15:36] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 14:15:36] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-17 14:15:36] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 14:15:36] [class-ss-page.php:119] Checking Content Identical:d6ec04ab32f9d908bd791d6ad3acc44879137c91===. Value: FALSE
+[2024-10-17 14:15:36] [class-ss-fetch-urls-task.php:72] URL: http://localhost/amoeba/wordpress/wp-content/et-cache/global/et-divi-customizer-global.min.css
+[2024-10-17 14:15:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 69
+[2024-10-17 14:15:36] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-17 14:15:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\smnbe\AppData\Local\Temp/67111c08e3011-7SDB3z.tmp
+[2024-10-17 14:15:36] [class-ss-page-handler.php:38] URL Prepared:http://localhost/amoeba/wordpress/wp-content/et-cache/global/et-divi-customizer-global.min.css?simply_static_page=69
+[2024-10-17 14:15:36] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/amoeba/wordpress/wp-content/et-cache/global/et-divi-customizer-global.min.css?simply_static_page=69
+[2024-10-17 14:15:36] [class-ss-url-fetcher.php:103] Filesize: 1633 bytes
+[2024-10-17 14:15:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-10-17 14:15:36] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/et-cache/global/et-divi-customizer-global.min.css
+[2024-10-17 14:15:36] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\smnbe\AppData\Local\Temp/67111c08e3011-7SDB3z.tmp to C:\xampp\htdocs\amoeba\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1729174523/wp-content/et-cache/global/et-divi-customizer-global.min.css
+[2024-10-17 14:15:36] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-17 14:15:36] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-17 14:15:36] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-17 14:15:36] [class-ss-page.php:119] Checking Content Identical:0c9f0baea3641845aa5aadbb0b6cab9b1a5dd615===. Value: FALSE
+[2024-10-17 14:15:36] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 64 of 69 pages/files
+[2024-10-17 14:15:36] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-10-17 14:15:36] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-10-17 14:15:36] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-10-17 14:15:36] [class-ss-fetch-urls-task.php:69] Total pages: 69; Pages remaining: 0
+[2024-10-17 14:15:36] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 69 of 69 pages/files
+[2024-10-17 14:15:36] [class-ss-archive-creation-job.php:175] We've found our next task: generate_404
+[2024-10-17 14:15:36] [class-ss-archive-creation-job.php:136] Current task: generate_404
+[2024-10-17 14:15:36] [class-ss-archive-creation-job.php:153] Performing task: generate_404
+[2024-10-17 14:15:36] [class-ss-task.php:44] Status message: [generate_404] Generating 404 Page.
+[2024-10-17 14:15:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\smnbe\AppData\Local\Temp/67111c08edbe7-6I4MBW.tmp
+[2024-10-17 14:15:36] [class-ss-page-handler.php:38] URL Prepared:http://localhost/amoeba/wordpress/1729174537?simply_static_page=0
+[2024-10-17 14:15:36] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/amoeba/wordpress/1729174537?simply_static_page=0
+[2024-10-17 14:15:37] [class-ss-url-fetcher.php:103] Filesize: 77460 bytes
+[2024-10-17 14:15:37] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
+[2024-10-17 14:15:37] [class-ss-url-fetcher.php:233] New filename for static page: 404/index.html
+[2024-10-17 14:15:37] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\smnbe\AppData\Local\Temp/67111c08edbe7-6I4MBW.tmp to C:\xampp\htdocs\amoeba\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1729174523\404/index.html
+[2024-10-17 14:15:37] [class-ss-generate-404-task.php:119] Replacing URLs in the static file
+[2024-10-17 14:15:37] [class-ss-generate-404-task.php:125] We're saving this URL; keeping the static file
+[2024-10-17 14:15:37] [class-ss-page.php:119] Checking Content Identical:69f505c2e13f82e4306e663f11958d79048388b8===. Value: FALSE
+[2024-10-17 14:15:37] [class-ss-task.php:44] Status message: [generate_404] 404 Page generated
+[2024-10-17 14:15:37] [class-ss-archive-creation-job.php:175] We've found our next task: transfer_files_locally
+[2024-10-17 14:15:37] [class-ss-archive-creation-job.php:136] Current task: transfer_files_locally
+[2024-10-17 14:15:37] [class-ss-archive-creation-job.php:153] Performing task: transfer_files_locally
+[2024-10-17 14:15:37] [class-ss-task.php:44] Status message: [transfer_files_locally] Transferring 50 of 66 files
+[2024-10-17 14:15:37] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/amoeba/wordpress/
+[2024-10-17 14:15:37] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/amoeba/wordpress/our-mission
+[2024-10-17 14:15:37] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/amoeba/wordpress/wp-content/uploads/2024/10
+[2024-10-17 14:15:37] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/amoeba/wordpress/wp-content/uploads/2024/10
+[2024-10-17 14:15:38] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/amoeba/wordpress/wp-content/uploads/2024/10
+[2024-10-17 14:15:38] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/amoeba/wordpress/wp-includes/js/jquery
+[2024-10-17 14:15:38] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/amoeba/wordpress/wp-includes/js/jquery
+[2024-10-17 14:15:38] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/amoeba/wordpress/wp-content/plugins/scroll-top/assets/js
+[2024-10-17 14:15:38] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/amoeba/wordpress/wp-content/themes/Divi/js
+[2024-10-17 14:15:38] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/amoeba/wordpress/wp-content/themes/Divi/includes/builder/feature/dynamic-assets/assets/js
+[2024-10-17 14:15:38] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/amoeba/wordpress/wp-content/plugins/flip-cards-module-divi/scripts
+[2024-10-17 14:15:38] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/amoeba/wordpress/wp-content/themes/Divi/core/admin/js
+[2024-10-17 14:15:38] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/amoeba/wordpress/wp-content/themes/Divi/includes/builder/feature/dynamic-assets/assets/js
+[2024-10-17 14:15:38] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/amoeba/wordpress/feed
+[2024-10-17 14:15:38] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/amoeba/wordpress/comments/feed
+[2024-10-17 14:15:38] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/amoeba/wordpress/wp-content/plugins/scroll-top/assets/css
+[2024-10-17 14:15:38] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/amoeba/wordpress/wp-content/et-cache/8
+[2024-10-17 14:15:38] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/amoeba/wordpress/wp-content/et-cache/8
+[2024-10-17 14:15:38] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/amoeba/wordpress/wp-content/plugins/flip-cards-module-divi/styles
+[2024-10-17 14:15:38] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/amoeba/wordpress/wp-content/themes/Divi_Child
+[2024-10-17 14:15:38] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/amoeba/wordpress/wp-json
+[2024-10-17 14:15:38] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/amoeba/wordpress/wp-json/wp/v2/pages
+[2024-10-17 14:15:38] [class-ss-transfer-files-locally-task.php:115] Cannot copy C:/xampp/htdocs/amoeba/wordpress/wp-content/uploads/simply-static/temp-files/simply-static-1-1729174523/wp-json/wp/v2/pages/8/index.html to C:/xampp/htdocs/amoeba/wordpress/wp-json/wp/v2/pages/8/index.html
+[2024-10-17 14:15:38] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/amoeba/wordpress/wp-content/et-cache/8
+[2024-10-17 14:15:38] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/amoeba/wordpress/wp-content/et-cache/8
+[2024-10-17 14:15:38] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/amoeba/wordpress/wp-content/themes/Divi/includes/builder/styles/images
+[2024-10-17 14:15:38] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/amoeba/wordpress/wp-content/themes/Divi/core/admin/fonts/modules/all
+[2024-10-17 14:15:38] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/amoeba/wordpress/wp-content/themes/Divi/core/admin/fonts/modules/all
+[2024-10-17 14:15:38] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/amoeba/wordpress/wp-content/themes/Divi/core/admin/fonts/modules/all
+[2024-10-17 14:15:38] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/amoeba/wordpress/wp-content/themes/Divi/core/admin/fonts/modules/all
+[2024-10-17 14:15:38] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/amoeba/wordpress/wp-content/themes/Divi/core/admin/fonts/fontawesome
+[2024-10-17 14:15:38] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/amoeba/wordpress/wp-content/themes/Divi/core/admin/fonts/fontawesome
+[2024-10-17 14:15:38] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/amoeba/wordpress/wp-content/themes/Divi/core/admin/fonts/fontawesome
+[2024-10-17 14:15:38] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/amoeba/wordpress/wp-content/themes/Divi/core/admin/fonts/fontawesome
+[2024-10-17 14:15:38] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/amoeba/wordpress/wp-content/themes/Divi/core/admin/fonts/fontawesome
+[2024-10-17 14:15:38] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/amoeba/wordpress/wp-content/themes/Divi/core/admin/fonts/fontawesome
+[2024-10-17 14:15:38] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/amoeba/wordpress/wp-content/themes/Divi/core/admin/fonts/fontawesome
+[2024-10-17 14:15:38] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/amoeba/wordpress/wp-content/themes/Divi/core/admin/fonts/fontawesome
+[2024-10-17 14:15:38] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/amoeba/wordpress/wp-content/themes/Divi/core/admin/fonts/fontawesome
+[2024-10-17 14:15:38] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/amoeba/wordpress/wp-content/themes/Divi/core/admin/fonts/fontawesome
+[2024-10-17 14:15:38] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/amoeba/wordpress/wp-content/themes/Divi/core/admin/fonts/fontawesome
+[2024-10-17 14:15:38] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/amoeba/wordpress/wp-content/themes/Divi/core/admin/fonts/fontawesome
+[2024-10-17 14:15:38] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/amoeba/wordpress/wp-content/themes/Divi/core/admin/fonts/fontawesome
+[2024-10-17 14:15:38] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/amoeba/wordpress/wp-content/themes/Divi/core/admin/fonts/fontawesome
+[2024-10-17 14:15:38] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/amoeba/wordpress/wp-content/themes/Divi/core/admin/fonts/fontawesome
+[2024-10-17 14:15:38] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/amoeba/wordpress/wp-content/uploads/2024/10
+[2024-10-17 14:15:38] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/amoeba/wordpress/wp-content/uploads/2024/10
+[2024-10-17 14:15:38] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/amoeba/wordpress/wp-content/uploads/2024/10
+[2024-10-17 14:15:38] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/amoeba/wordpress/wp-content/uploads/2024/10
+[2024-10-17 14:15:38] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/amoeba/wordpress/wp-content/uploads/2024/10
+[2024-10-17 14:15:38] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/amoeba/wordpress/wp-content/uploads/2024/10
+[2024-10-17 14:15:38] [class-ss-transfer-files-locally-task.php:73] [Transfer] Total Pages:66. Processed Pages: 50
+[2024-10-17 14:15:38] [class-ss-task.php:44] Status message: [transfer_files_locally] Transferred 50 of 66 files
+[2024-10-17 14:15:38] [trait-can-process-pages.php:110] Total pages: 66; Pages remaining: 16
+[2024-10-17 14:15:38] [class-ss-archive-creation-job.php:181] We're not done with the transfer_files_locally task yet
+[2024-10-17 14:15:38] [class-ss-archive-creation-job.php:136] Current task: transfer_files_locally
+[2024-10-17 14:15:38] [class-ss-archive-creation-job.php:153] Performing task: transfer_files_locally
+[2024-10-17 14:15:38] [class-ss-task.php:44] Status message: [transfer_files_locally] Transferring 16 of 66 files
+[2024-10-17 14:15:38] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/amoeba/wordpress/wp-content/uploads/2024/10
+[2024-10-17 14:15:38] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/amoeba/wordpress/wp-content/uploads/2024/10
+[2024-10-17 14:15:38] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/amoeba/wordpress/wp-content/uploads/2024/10
+[2024-10-17 14:15:38] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/amoeba/wordpress/wp-json/wp/v2/pages
+[2024-10-17 14:15:38] [class-ss-transfer-files-locally-task.php:115] Cannot copy C:/xampp/htdocs/amoeba/wordpress/wp-content/uploads/simply-static/temp-files/simply-static-1-1729174523/wp-json/wp/v2/pages/186/index.html to C:/xampp/htdocs/amoeba/wordpress/wp-json/wp/v2/pages/186/index.html
+[2024-10-17 14:15:38] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/amoeba/wordpress/wp-content/et-cache/186
+[2024-10-17 14:15:38] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/amoeba/wordpress/2024/08/28/hello-world
+[2024-10-17 14:15:38] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/amoeba/wordpress/2024/08/28/hello-world/feed
+[2024-10-17 14:15:38] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/amoeba/wordpress/wp-content/themes/Divi/core/admin/fonts/modules/social
+[2024-10-17 14:15:38] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/amoeba/wordpress/wp-content/themes/Divi/core/admin/fonts/modules/social
+[2024-10-17 14:15:38] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/amoeba/wordpress/wp-content/themes/Divi/core/admin/fonts/modules/social
+[2024-10-17 14:15:38] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/amoeba/wordpress/wp-content/themes/Divi/core/admin/fonts/modules/social
+[2024-10-17 14:15:38] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/amoeba/wordpress/wp-includes/js
+[2024-10-17 14:15:38] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/amoeba/wordpress/wp-content/themes/Divi/includes/builder/feature/dynamic-assets/assets/js
+[2024-10-17 14:15:38] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/amoeba/wordpress/wp-includes/css/dist/block-library
+[2024-10-17 14:15:38] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/amoeba/wordpress/wp-json/wp/v2/posts
+[2024-10-17 14:15:38] [class-ss-transfer-files-locally-task.php:115] Cannot copy C:/xampp/htdocs/amoeba/wordpress/wp-content/uploads/simply-static/temp-files/simply-static-1-1729174523/wp-json/wp/v2/posts/1/index.html to C:/xampp/htdocs/amoeba/wordpress/wp-json/wp/v2/posts/1/index.html
+[2024-10-17 14:15:38] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/amoeba/wordpress/wp-content/et-cache/global
+[2024-10-17 14:15:38] [class-ss-transfer-files-locally-task.php:73] [Transfer] Total Pages:66. Processed Pages: 66
+[2024-10-17 14:15:38] [class-ss-task.php:44] Status message: [transfer_files_locally] Transferred 66 of 66 files
+[2024-10-17 14:15:38] [trait-can-process-pages.php:110] Total pages: 66; Pages remaining: 0
+[2024-10-17 14:15:38] [class-ss-transfer-files-locally-task.php:238] Transferring 404 Page
+[2024-10-17 14:15:38] [class-ss-transfer-files-locally-task.php:257] Destination 404 Page found at C:/xampp/htdocs/amoeba/wordpress\404\index.html
+[2024-10-17 14:15:38] [class-ss-transfer-files-locally-task.php:261] Success
+[2024-10-17 14:15:38] [class-ss-archive-creation-job.php:175] We've found our next task: wrapup
+[2024-10-17 14:15:38] [class-ss-archive-creation-job.php:136] Current task: wrapup
+[2024-10-17 14:15:38] [class-ss-archive-creation-job.php:153] Performing task: wrapup
+[2024-10-17 14:15:38] [class-ss-wrapup-task.php:22] Deleting temporary files
+[2024-10-17 14:15:38] [class-ss-task.php:44] Status message: [wrapup] Wrapping up
+[2024-10-17 14:15:38] [class-ss-archive-creation-job.php:170] This task is done and there are no more tasks, time to complete the job
+[2024-10-17 14:15:38] [class-ss-archive-creation-job.php:197] Completing the job
+[2024-10-17 14:15:38] [class-ss-archive-creation-job.php:324] Status message: [done] Done! Finished in 00:00:15
